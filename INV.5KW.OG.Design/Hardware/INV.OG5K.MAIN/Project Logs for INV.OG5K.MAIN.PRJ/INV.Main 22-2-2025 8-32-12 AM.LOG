@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=U21 Old Footprint=OPTO TRANSISTOR_SOP-4 New Footprint=SOP4
+Change Component Footprint: Designator=R167 Old Footprint=RES-SMD-1210 EX New Footprint=R1206
+Change Component Footprint: Designator=R168 Old Footprint=RES-SMD-1210 EX New Footprint=R1206
+Change Component Footprint: Designator=R173 Old Footprint=RES-SMD-1210 EX New Footprint=R1206
+Change Component Footprint: Designator=R189 Old Footprint=RES-SMD-1210 EX New Footprint=R1206
+Change Component Footprint: Designator=R205 Old Footprint=RES-SMD-1210 EX New Footprint=R1206
+Change Component Footprint: Designator=R213 Old Footprint=RES-SMD-1210 EX New Footprint=R1206
+Change Component Footprint: Designator=R214 Old Footprint=RES-SMD-1210 EX New Footprint=R1206

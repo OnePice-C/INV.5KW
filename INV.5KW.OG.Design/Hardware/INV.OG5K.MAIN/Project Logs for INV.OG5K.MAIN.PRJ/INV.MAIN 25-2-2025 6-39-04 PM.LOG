@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetAC_N_1 Pin=L2-3
+Change Component Comment : Designator=L2 Old Comment=L New Comment=
+Added Pin To Net: NetName=NetAC_N_1 Pin=L2-4
+Added Pin To Net: NetName=NetL2_3 Pin=L2-3
+Added Pin To Net: NetName=NetL2_3 Pin=U8-1
+Added Pin To Net: NetName=NetL2_3 Pin=U8-1
+Added Pin To Net: NetName=NetL2_3 Pin=U8-1
+Added Pin To Net: NetName=NetL2_3 Pin=U8-1
+Added Net: Name=NetL2_3

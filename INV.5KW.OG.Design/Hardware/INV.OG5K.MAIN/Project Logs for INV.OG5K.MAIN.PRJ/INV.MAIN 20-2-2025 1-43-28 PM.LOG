@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Net2_1 Pin=L5-1
+Removed Pin From Net: NetName=Net1_1 Pin=L5-2
+Removed Pin From Net: NetName=BAT +48 Pin=L5-3
+Removed Pin From Net: NetName=GND_BAT Pin=L5-4
+Change Component Designator: OldDesignator=BAT + NewDesignator=1
+Change Component Designator: OldDesignator=BAT - NewDesignator=2
+Added Pin To Net: NetName=Net1_1 Pin=L5-1
+Added Pin To Net: NetName=Net2_1 Pin=L5-2
+Added Pin To Net: NetName=GND_BAT Pin=L5-3
+Added Pin To Net: NetName=BAT +48 Pin=L5-4
+Added Member To Class: ClassName=INV.Main.SCH Member=Component 1 BAT +

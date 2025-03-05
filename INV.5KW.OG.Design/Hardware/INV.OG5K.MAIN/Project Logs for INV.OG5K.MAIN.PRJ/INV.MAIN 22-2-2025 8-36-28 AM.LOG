@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=G_LLC_A Pin=R214-1
+Removed Pin From Net: NetName=LLC_A_-5V Pin=R214-2
+Removed Member From Class: ClassName=INV.Main.SCH Member=R214
+Change Component Footprint: Designator=R168 Old Footprint=R1206 New Footprint=RES-SMD-1210 EX
+Change Component Footprint: Designator=R173 Old Footprint=R1206 New Footprint=RES-SMD-1210 EX
+Change Component Footprint: Designator=R189 Old Footprint=R1206 New Footprint=RES-SMD-1210 EX
+Change Component Footprint: Designator=R205 Old Footprint=R1206 New Footprint=RES-SMD-1210 EX
+Change Component Footprint: Designator=R213 Old Footprint=R1206 New Footprint=RES-SMD-1210 EX
+Added Component: Designator=214(RES-SMD-1210 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R167(RES-SMD-1210 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=G_LLC_A Pin=214-1
+Added Pin To Net: NetName=LLC_A_-5V Pin=214-2
+Added Pin To Net: NetName=G_DR2 Pin=R167-1
+Added Pin To Net: NetName=-5V_DR2 Pin=R167-2
+Added Member To Class: ClassName=INV.Main.SCH Member=Component 214 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R167 430R

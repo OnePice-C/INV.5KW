@@ -1,0 +1,19 @@
+DRC Rules Export File for PCB: C:\Users\A0498176\Desktop\GI_SVN\01-TIDA\TIDA-010938 Single Phase String Inverter with PCS for ESS\Galileo Documents\TIDA-010938 CAD\TIDA-010938 AC-DCE1(001)\TIDA-010938 AC-DC.PcbDoc
+RuleKind=Clearance|RuleName=PE_PELV|Scope=Board|Minimum=78.74
+RuleKind=Clearance|RuleName=BUCK|Scope=Board|Minimum=70.87
+RuleKind=Clearance|RuleName=SW2|Scope=Board|Minimum=23.62
+RuleKind=Clearance|RuleName=SW1|Scope=Board|Minimum=23.62
+RuleKind=Clearance|RuleName=SWMID|Scope=Board|Minimum=82.68
+RuleKind=Clearance|RuleName=ACL_ACN|Scope=Board|Minimum=157.48
+RuleKind=Clearance|RuleName=PE|Scope=Board|Minimum=98.43
+RuleKind=Clearance|RuleName=PELV|Scope=Board|Minimum=236.22
+RuleKind=Clearance|RuleName=HVN_HVP|Scope=Board|Minimum=31.50
+RuleKind=Clearance|RuleName=Minimum_Distance|Scope=Board|Minimum=5.91
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=4.92
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_ThermalPadVias|Scope=Board|Minimum=4.92
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Clearance_FiducialMark|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_Keepouts|Scope=Board|Minimum=0.00

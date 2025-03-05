@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=H1 NewDesignator=AC_L
+Change Component Designator: OldDesignator=H2 NewDesignator=AC_N
+Change Component Designator: OldDesignator=PV +1 NewDesignator=BUS +
+Change Component Designator: OldDesignator=PV +2 NewDesignator=L1_PV+
+Change Component Designator: OldDesignator=PV +3 NewDesignator=NEG
+Change Net Name : Old Net Name=NetC33_2 New Net Name=NetAC_L_1
+Change Net Name : Old Net Name=NetC76_1 New Net Name=NetAC_N_1
+Change Net Name : Old Net Name=NetL4_1 New Net Name=NetL1_PV+_1

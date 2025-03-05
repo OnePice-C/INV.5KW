@@ -1,0 +1,18 @@
+DRC Rules Export File for PCB: C:\Users\A0498176\Desktop\GI_SVN\01-TIDA\TIDA-010938 Single Phase String Inverter with PCS for ESS\Galileo Documents\TIDA-010938 CAD\TIDA-010938 DC-DCE1(001)\TIDA-010938 DCDC.PcbDoc
+RuleKind=Clearance|RuleName=Clearance Top HVN-HVP2|Scope=Board|Minimum=78.74
+RuleKind=Clearance|RuleName=Clearance Top HVN-HVP|Scope=Board|Minimum=78.74
+RuleKind=Clearance|RuleName=GaN_SW|Scope=Board|Minimum=27.56
+RuleKind=Clearance|RuleName=HVN_HVP_GAN|Scope=Board|Minimum=27.56
+RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=SW_Bidirect1|Scope=Board|Minimum=82.68
+RuleKind=Clearance|RuleName=SW_Bidirect2|Scope=Board|Minimum=82.68
+RuleKind=Clearance|RuleName=HVN_HVP|Scope=Board|Minimum=27.56
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=4.92
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_ThermalPadVias|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width12V|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Minimum distance|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_FiducialMark|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_Keepouts|Scope=Board|Minimum=0.00

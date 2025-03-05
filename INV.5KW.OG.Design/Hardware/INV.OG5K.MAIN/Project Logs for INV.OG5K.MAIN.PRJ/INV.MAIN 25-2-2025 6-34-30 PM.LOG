@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=G_LLC_B Pin=L2-2
+Added Pin To Net: NetName=G_DR1 Pin=L2-2

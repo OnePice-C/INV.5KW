@@ -1,0 +1,155 @@
+Added Component: Designator=D8(TO-247-Diode)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "STTH2003CG-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=QH1(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=QH2(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=QH3(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=QH4(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V1(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V2(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V3(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V4(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V6(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V7(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V8(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V10(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=D8-2
+Added Pin To Net: NetName=BUS + Pin=D8-3
+Added Pin To Net: NetName=NetQH1_1 Pin=QH1-1
+Added Pin To Net: NetName=NetC7_1 Pin=QH1-2
+Added Pin To Net: NetName=G_LLC_B Pin=QH1-3
+Added Pin To Net: NetName=NetQH2_1 Pin=QH2-1
+Added Pin To Net: NetName=NetC7_1 Pin=QH2-2
+Added Pin To Net: NetName=G_LLC_A Pin=QH2-3
+Added Pin To Net: NetName=NetQH3_1 Pin=QH3-1
+Added Pin To Net: NetName=G_LLC_B Pin=QH3-2
+Added Pin To Net: NetName=NEG Pin=QH3-3
+Added Pin To Net: NetName=NetQH4_1 Pin=QH4-1
+Added Pin To Net: NetName=G_LLC_A Pin=QH4-2
+Added Pin To Net: NetName=NEG Pin=QH4-3
+Added Pin To Net: NetName=NetR38_2 Pin=V1-1
+Added Pin To Net: NetName=BUS + Pin=V1-2
+Added Pin To Net: NetName=G_DR4 Pin=V1-3
+Added Pin To Net: NetName=NetR43_1 Pin=V2-1
+Added Pin To Net: NetName=BUS + Pin=V2-2
+Added Pin To Net: NetName=G_DR1 Pin=V2-3
+Added Pin To Net: NetName=NetR45_1 Pin=V3-1
+Added Pin To Net: NetName=BUS + Pin=V3-2
+Added Pin To Net: NetName=G_DR2 Pin=V3-3
+Added Pin To Net: NetName=NetR83_2 Pin=V4-1
+Added Pin To Net: NetName=G_DR4 Pin=V4-2
+Added Pin To Net: NetName=NEG Pin=V4-3
+Added Pin To Net: NetName=NetR127_2 Pin=V6-1
+Added Pin To Net: NetName=NetV5_2 Pin=V6-2
+Added Pin To Net: NetName=G_DR1 Pin=V6-3
+Added Pin To Net: NetName=NetR131_1 Pin=V7-1
+Added Pin To Net: NetName=G_DR1 Pin=V7-2
+Added Pin To Net: NetName=NEG Pin=V7-3
+Added Pin To Net: NetName=NetR132_1 Pin=V8-1
+Added Pin To Net: NetName=G_DR2 Pin=V8-2
+Added Pin To Net: NetName=NEG Pin=V8-3
+Added Pin To Net: NetName=NetR185_2 Pin=V10-1
+Added Pin To Net: NetName=NetD8_1 Pin=V10-2
+Added Pin To Net: NetName=NEG Pin=V10-3
+Added Member To Class: ClassName=INV.Main.SCH Member=Component D8 600V/30A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component QH1 650V/50A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component QH2 650V/50A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component QH3 650V/50A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component QH4 650V/50A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V1 650V/40A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V2 650V/80A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V3 650V/80A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V4 650V/40A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V6 650V/80A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V7 650V/80A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V8 650V/80A
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V10 650V/40A

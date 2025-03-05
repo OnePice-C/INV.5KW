@@ -1,0 +1,17 @@
+Change Component Footprint: Designator=R22 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R23 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R28 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R29 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R34 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R35 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R36 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R37 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R98 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R99 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R100 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R101 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R119 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R120 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R121 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R122 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Designator: OldDesignator=R167 NewDesignator=R214

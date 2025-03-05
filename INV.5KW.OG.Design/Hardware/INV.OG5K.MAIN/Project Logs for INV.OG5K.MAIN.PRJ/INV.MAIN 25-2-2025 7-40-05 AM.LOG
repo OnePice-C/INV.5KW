@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC64_1 Pin=T1-3
+Removed Pin From Net: NetName=NetC64_1 Pin=T1-3
+Removed Pin From Net: NetName=G_LLC_B Pin=T1-4
+Removed Pin From Net: NetName=G_LLC_B Pin=T1-4
+Added Pin To Net: NetName=G_LLC_B Pin=T1-3
+Added Pin To Net: NetName=G_LLC_B Pin=T1-3
+Added Pin To Net: NetName=NetC64_1 Pin=T1-4
+Added Pin To Net: NetName=NetC64_1 Pin=T1-4

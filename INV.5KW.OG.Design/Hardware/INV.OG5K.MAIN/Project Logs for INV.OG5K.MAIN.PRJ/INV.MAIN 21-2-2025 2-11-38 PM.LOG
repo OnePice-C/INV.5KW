@@ -1,0 +1,13 @@
+Added Component: Designator=U21(SOP4)
+Add component (AddParameter): Name = "Category"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompanyID"; Value = "VT-xxxx"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MFR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "VOM617A-2T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PinCount"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Solder"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "VOM617A-2T"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR175_1 Pin=U21-1
+Added Pin To Net: NetName=NetD14_3 Pin=U21-2
+Added Pin To Net: NetName=G_NEG Pin=U21-3
+Added Pin To Net: NetName=NetC155_1 Pin=U21-4
+Added Member To Class: ClassName=INV.Main.SCH Member=Component U21 617A-3

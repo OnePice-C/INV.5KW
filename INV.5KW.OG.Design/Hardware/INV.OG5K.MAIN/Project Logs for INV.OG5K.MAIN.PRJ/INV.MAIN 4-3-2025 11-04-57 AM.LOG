@@ -1,0 +1,10 @@
+Added Component: Designator=C206(CAP-SMD-0805 EX)
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C215(CAP-SMD-0805 EX)
+Add component (AddParameter): Name = "Value"; Value = "0.47uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LLC_B_-5V Pin=C206-1
+Added Pin To Net: NetName=G_LLC_B Pin=C206-2
+Added Pin To Net: NetName=LLC_A_-5V Pin=C215-1
+Added Pin To Net: NetName=G_LLC_A Pin=C215-2
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C206 Tu dan gom
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C215 Tu dan gom

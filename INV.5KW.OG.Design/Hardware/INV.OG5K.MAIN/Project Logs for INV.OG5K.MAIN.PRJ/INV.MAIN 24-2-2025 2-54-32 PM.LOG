@@ -1,0 +1,115 @@
+Change Component Designator: OldDesignator=BAT+1 NewDesignator=BAT+
+Change Component Designator: OldDesignator=BAT-1 NewDesignator=BAT-
+Change Component Designator: OldDesignator=H1 NewDesignator=AC_L
+Change Component Designator: OldDesignator=H2 NewDesignator=AC_N
+Change Component Designator: OldDesignator=PV +1 NewDesignator=BUS +
+Change Component Designator: OldDesignator=PV +2 NewDesignator=L1_PV+
+Change Component Designator: OldDesignator=PV +3 NewDesignator=NEG
+Change Net Name : Old Net Name=NetBAT+1_1 New Net Name=NetBAT+_1
+Change Net Name : Old Net Name=NetBAT-1_1 New Net Name=NetBAT-_1
+Change Net Name : Old Net Name=NetC33_2 New Net Name=NetAC_L_1
+Change Net Name : Old Net Name=NetC76_1 New Net Name=NetAC_N_1
+Change Net Name : Old Net Name=NetL4_1 New Net Name=NetL1_PV+_1
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C53 0805
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R2 499R/0603
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R4 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R6 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R8 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R10 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R11 1.5K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R13 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R15 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R17 100K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R19 100K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R21 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R23 510K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R25 510K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R27 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R29 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R31 499K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R33 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R36 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R38 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R40 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R42 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R44 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R46 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R48 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R50 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R52 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R53 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R55 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R57 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R59 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R61 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R64 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R66 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R68 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R71 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R73 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R75 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R78 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R80 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R81 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R84 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R86 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R88 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R91 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R94 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R96 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R98 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R100 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R102 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R104 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R106 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R108 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R110 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R112 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R114 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R116 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R118 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R120 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R122 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R124 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R126 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R128 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R130 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R132 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R134 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R136 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R138 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R140 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R142 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R144 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R146 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R148 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R150 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R152 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R154 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R158 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R162 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R164 510K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R166 510K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R169 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R171 150K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R173 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R175 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R177 150K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R179 10K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R181 10K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R183 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R185 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R187 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R189 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R191 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R193 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R195 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R197 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R199 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R201 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R203 491K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R205 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R207 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R209 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R211 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R213 430R

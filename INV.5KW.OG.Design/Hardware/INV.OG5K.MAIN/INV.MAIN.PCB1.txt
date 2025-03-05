@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : D:\DTKH.INV\INV.5KW.OG.Design\Hardware\INV.OG5K.MAIN\INV.MAIN.PCB1.PcbDoc
+Date         : 26/2/2025
+Time         : 6:48:35 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 320mmx320mm
+    Components on board, 541
+count : 2

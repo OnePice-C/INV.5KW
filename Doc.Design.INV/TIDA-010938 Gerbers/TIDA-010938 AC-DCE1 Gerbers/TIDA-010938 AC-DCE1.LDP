@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\A0498176\Desktop\GI_SVN\01-TIDA\TIDA-010938 Single Phase String Inverter with PCS for ESS\Galileo Documents\TIDA-010938 CAD\TIDA-010938 AC-DCE1(001)\TIDA-010938 AC-DC.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=tida-010938 ac-dce1-roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=tida-010938 ac-dce1-slotholes.txt|DrillLayers=gtl,g1,g2,gbl

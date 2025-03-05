@@ -1,0 +1,109 @@
+Added Component: Designator=U10(SOIC127P1150X360-6N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Broadcom Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ACPL-W346-000E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOIC-6 Broadcom"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ACPL-W346-000E/Broadcom%20Limited/view-part/2767622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR91_1 Pin=U10-1
+Added Pin To Net: NetName=NetR81_1 Pin=U10-3
+Added Pin To Net: NetName=-5V_DR2 Pin=U10-4
+Added Pin To Net: NetName=NetR92_1 Pin=U10-5
+Added Pin To Net: NetName=+15V_DR2 Pin=U10-6
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C47 0805
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C49 0805
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C51 0805
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C53 Tu dan gom
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C55 0805
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C57 0805
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C109 Tu dan gom
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C110 Tu dan gom
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C159 Tu dan gom
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C161 Tu dan gom
+Added Member To Class: ClassName=INV.Main.SCH Member=Component C163 100uF/25V
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R53 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R55 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R57 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R59 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R61 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R70 0R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R71 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R73 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R75 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R77 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R81 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R84 0R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R85 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R87 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R89 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R91 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R93 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R95 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R97 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R99 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R101 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R103 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R105 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R107 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R109 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R111 2M
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R113 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R115 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R117 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R119 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R121 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R123 20R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R125 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R127 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R129 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R132 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R134 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R136 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R138 200R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R140 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R142 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R144 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R146 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R148 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R150 2K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R152 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R154 15R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R158 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R160 0R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R162 0R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R164 510K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R166 510K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R169 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R171 30K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R173 150K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R175 150K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R176 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R178 150K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R180 10K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R181 100K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R182 10K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R183 10K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R185 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R186 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R188 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R189 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R191 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R193 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R194 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R195 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R196 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R198 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R199 5.1K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R200 10R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R202 130R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R203 10K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R204 491K
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R206 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R207 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R209 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R210 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R211 150K/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R213 2R/1206
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R214 430R
+Added Member To Class: ClassName=INV.Main.SCH Member=Component U10 ACPL-W346-000E

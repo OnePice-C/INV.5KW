@@ -1,0 +1,8 @@
+Added Component: Designator=L2(LSINEOG-V1)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Loc 220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=G_DR1 Pin=L2-1
+Added Pin To Net: NetName=G_DR2 Pin=L2-2
+Added Pin To Net: NetName=NetAC_N_1 Pin=L2-3
+Added Pin To Net: NetName=NetL2_4 Pin=L2-4
+Added Member To Class: ClassName=INV.Main.SCH Member=Component L2 L

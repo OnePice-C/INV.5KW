@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=BAT + NewDesignator=BAT+
+Change Component Designator: OldDesignator=BAT - NewDesignator=BAT-
+Change Net Name : Old Net Name=NetBAT +_1 New Net Name=NetBAT+_1
+Change Net Name : Old Net Name=NetBAT -_1 New Net Name=NetBAT-_1

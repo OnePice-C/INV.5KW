@@ -1,0 +1,43 @@
+Change Component Footprint: Designator=R42 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R43 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R45 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R47 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R50 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R51 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R61 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R63 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R65 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R67 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R68 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R72 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R73 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R77 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R83 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R91 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R112 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R114 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R117 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R118 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R125 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R126 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R127 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R131 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R132 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R146 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R147 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R153 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R154 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R156 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R158 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R184 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R185 Old Footprint=RES-SMD-0805 EX New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R188 Old Footprint=RES-SMD-1210 EX New Footprint=RES-SMD-0805
+Change Component Comment : Designator=R51 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R63 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R67 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R77 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R153 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R154 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R156 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R158 Old Comment=10R New Comment=15R
+Change Component Comment : Designator=R188 Old Comment=150K New Comment=5.1K

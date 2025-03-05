@@ -1,0 +1,16 @@
+Added Component: Designator=T1(Transformer PM62)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "14A-10R-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VS1 Pin=T1-1
+Added Pin To Net: NetName=VS1 Pin=T1-1
+Added Pin To Net: NetName=VS2 Pin=T1-2
+Added Pin To Net: NetName=VS2 Pin=T1-2
+Added Pin To Net: NetName=G_LLC_B Pin=T1-3
+Added Pin To Net: NetName=G_LLC_B Pin=T1-3
+Added Pin To Net: NetName=NetC64_1 Pin=T1-4
+Added Pin To Net: NetName=NetC64_1 Pin=T1-4
+Added Member To Class: ClassName=INV.Main.SCH Member=Component T1 PM62/EE54

@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=+15V_DAB_A Pin=C131-2
+Removed Pin From Net: NetName=+15V_DAB_A Pin=C132-1
+Removed Pin From Net: NetName=+15V_DAB_C Pin=C138-1
+Removed Pin From Net: NetName=+15V_DAB_C Pin=C140-2
+Removed Pin From Net: NetName=+15V_DAB_A Pin=D6-2
+Removed Pin From Net: NetName=+15V_DAB_C Pin=D10-2
+Added Pin To Net: NetName=+15V_DAB_C Pin=C131-2
+Added Pin To Net: NetName=+15V_DAB_C Pin=C132-1
+Added Pin To Net: NetName=+15V_DAB_A Pin=C138-1
+Added Pin To Net: NetName=+15V_DAB_A Pin=C140-2
+Added Pin To Net: NetName=+15V_DAB_C Pin=D6-2
+Added Pin To Net: NetName=+15V_DAB_A Pin=D10-2

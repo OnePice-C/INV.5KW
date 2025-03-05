@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: TIDA-010938 DCDC.PcbDoc   12/3/2023  10:27:35 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : TIDA-010938 DC-DCE1-RoundHoles.TXT
+ASCII SlotHoles File : TIDA-010938 DC-DCE1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.254mm (10mil)                                           Round             1992      PTH        3788.55mm (149.16inch)
+T2      0.74mm (29mil)                                            Round             48        PTH        79.88mm (3.14inch)
+T3      0.85mm (33mil)                                            Round             4         PTH        28.57mm (1.12inch)
+T4      1mm (39mil)                                               Round             14        PTH        648.79mm (25.54inch)
+T5      1.016mm (40mil)                                           Round             37        PTH        1128.56mm (44.43inch)
+T6      1.2mm (47mil)                                             Slot              6         PTH        208.49mm (8.21inch)
+T7      1.3mm (51mil)                                             Round             8         PTH        75.05mm (2.95inch)
+T8      1.4mm (55mil)                                             Round             15        PTH        357.49mm (14.07inch)
+T9      1.5mm (59mil)                                             Round             60        PTH        822.40mm (32.38inch)
+T10     4.4mm (173mil)                                            Round             9         NPTH       1241.16mm (48.86inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              2193
+
+Total Processing Time (hh:mm:ss) : 00:00:00

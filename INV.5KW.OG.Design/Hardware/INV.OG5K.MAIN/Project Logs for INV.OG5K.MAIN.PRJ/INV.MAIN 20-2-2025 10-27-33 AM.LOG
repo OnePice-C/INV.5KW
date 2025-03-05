@@ -1,0 +1,12 @@
+Added Component: Designator=V5(TO-247_1)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "FGA25N120ANTDTU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.in/product-detail/en/on-semiconductor/FGA25N120ANTDTU/FGA25N120ANTDTU-ND/820640?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FGA25N120ANTD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-3 Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FGA25N120ANTD/ON%20Semiconductor/view-part/202622/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR88_2 Pin=V5-1
+Added Pin To Net: NetName=NetV5_2 Pin=V5-2
+Added Pin To Net: NetName=G_DR2 Pin=V5-3
+Added Member To Class: ClassName=INV.Main.SCH Member=Component V5 650V/80A

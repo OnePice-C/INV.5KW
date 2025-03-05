@@ -1,0 +1,16 @@
+Added Component: Designator=U8(Current sensor STB-CAS)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Loc 220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetL2_4 Pin=U8-1
+Added Pin To Net: NetName=NetL2_4 Pin=U8-1
+Added Pin To Net: NetName=NetL2_4 Pin=U8-1
+Added Pin To Net: NetName=NetL2_4 Pin=U8-1
+Added Pin To Net: NetName=NetAC_L_1 Pin=U8-2
+Added Pin To Net: NetName=NetAC_L_1 Pin=U8-2
+Added Pin To Net: NetName=NetAC_L_1 Pin=U8-2
+Added Pin To Net: NetName=NetAC_L_1 Pin=U8-2
+Added Pin To Net: NetName=NetC13_1 Pin=U8-11
+Added Pin To Net: NetName=NetC5_2 Pin=U8-12
+Added Pin To Net: NetName=G_NEG Pin=U8-13
+Added Pin To Net: NetName=NetC2_2 Pin=U8-14
+Added Member To Class: ClassName=INV.Main.SCH Member=Component U8 Current sensor

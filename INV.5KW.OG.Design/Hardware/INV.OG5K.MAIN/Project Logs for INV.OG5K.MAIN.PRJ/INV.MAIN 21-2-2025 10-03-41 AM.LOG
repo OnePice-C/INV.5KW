@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetBAT +_1 Pin=L5-1
+Removed Pin From Net: NetName=NetBAT -_1 Pin=L5-2
+Removed Pin From Net: NetName=GND_BAT Pin=L5-3
+Removed Pin From Net: NetName=BAT +48 Pin=L5-4
+Change Component Designator: OldDesignator=AC_L NewDesignator=H1
+Change Component Designator: OldDesignator=AC_N NewDesignator=H2
+Change Component Designator: OldDesignator=BAT + NewDesignator=1
+Change Component Designator: OldDesignator=BAT - NewDesignator=2
+Change Component Designator: OldDesignator=BUS + NewDesignator=PV +1
+Change Component Designator: OldDesignator=L1_PV+ NewDesignator=PV +2
+Change Component Designator: OldDesignator=NEG NewDesignator=PV +3
+Added Pin To Net: NetName=NetBAT -_1 Pin=L5-1
+Added Pin To Net: NetName=NetBAT +_1 Pin=L5-2
+Added Pin To Net: NetName=BAT +48 Pin=L5-3
+Added Pin To Net: NetName=GND_BAT Pin=L5-4
+Change Net Name : Old Net Name=NetAC_L_1 New Net Name=NetC33_2
+Change Net Name : Old Net Name=NetAC_N_1 New Net Name=NetC76_1
+Change Net Name : Old Net Name=NetBAT +_1 New Net Name=Net1_1
+Change Net Name : Old Net Name=NetBAT -_1 New Net Name=Net2_1
+Change Net Name : Old Net Name=NetL1_PV+_1 New Net Name=NetL4_1

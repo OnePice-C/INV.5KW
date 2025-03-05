@@ -1,0 +1,8 @@
+Added Component: Designator=R189(RES-SMD-1210 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=G_DR4 Pin=R189-1
+Added Pin To Net: NetName=NetC158_2 Pin=R189-2
+Added Member To Class: ClassName=INV.Main.SCH Member=Component R189 430R
