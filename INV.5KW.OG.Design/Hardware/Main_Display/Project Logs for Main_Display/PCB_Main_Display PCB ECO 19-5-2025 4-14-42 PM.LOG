@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=HD1-1
+Removed Pin From Net: NetName=CT1 Pin=HD1-2
+Removed Pin From Net: NetName=CANL Pin=HD1-6
+Removed Pin From Net: NetName=CANH Pin=HD1-8
+Added Pin To Net: NetName=CANH Pin=HD1-1
+Added Pin To Net: NetName=CANL Pin=HD1-2
+Added Pin To Net: NetName=CT1 Pin=HD1-6
+Added Pin To Net: NetName=GND Pin=HD1-8
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via

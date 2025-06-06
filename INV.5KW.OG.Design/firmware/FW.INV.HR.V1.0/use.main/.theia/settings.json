@@ -1,0 +1,26 @@
+{
+    "prettier.bracketSameLine": true,
+    "prettier.arrowParens": "always",
+    "prettier.embeddedLanguageFormatting": "auto",
+    "editor.fontSize": 15,
+    "editor.wordWrapColumn": 160,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "diffEditor.wordWrap": "on",
+    "html.format.wrapLineLength": 120,
+    "html.format.wrapAttributes": "auto",
+    "files.exclude": {
+        ".*": true
+    },
+    "editor.codeActionsOnSave": {},
+    "editor.experimental.dropIntoEditor.defaultProvider": {},
+    "editor.indentSize": "tabSize",
+    "editor.language.brackets": null,
+    "editor.unicodeHighlight.allowedCharacters": {},
+    "prettier.proseWrap": "always",
+    "json.format.enable": true,
+    "json.format.keepLines": true,
+    "json.schemas": [],
+    "editor.fontLigatures": false
+}

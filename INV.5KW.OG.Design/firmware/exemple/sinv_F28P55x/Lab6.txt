@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportImportMemento.1>
+<VarMeta IMemento.internal.id="stringINV_ADC_fault"/>
+<VarMeta IMemento.internal.id="stringINV_enableACRelay"/>
+<VarMeta IMemento.internal.id="stringINV_clearPWMTripDCAC"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_Amplitude"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_Index_Modulation"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_iAC_sensed"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_vAC_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_vDC_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_vDC_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_FAULT_FLAGS"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_rgen"/>
+<VarMeta IMemento.internal.id="stringINV_spll_1ph"/>
+<VarMeta IMemento.internal.id="TEMP_S1_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_S2_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_S3_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_S4_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_S5_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_S6_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_stop"/>
+</ExportImportMemento.1>

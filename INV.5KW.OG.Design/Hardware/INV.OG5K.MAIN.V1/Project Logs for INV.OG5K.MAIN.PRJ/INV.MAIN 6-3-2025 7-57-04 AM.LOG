@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=AC_L1 NewDesignator=AC_L
+Change Component Designator: OldDesignator=AC_N1 NewDesignator=AC_N
+Change Net Name : Old Net Name=NetAC_L1_1 New Net Name=NetAC_L_1
+Change Net Name : Old Net Name=NetAC_N1_1 New Net Name=NetAC_N_1
+Added Member To Class: ClassName=INV.Main.SCH Member=Component PE3 PE

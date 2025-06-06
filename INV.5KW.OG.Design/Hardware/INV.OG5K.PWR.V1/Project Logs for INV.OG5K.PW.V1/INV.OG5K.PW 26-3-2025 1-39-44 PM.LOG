@@ -1,0 +1,12 @@
+Change Footprint: Footprint Not Found Jump2
+Change Footprint: Footprint Not Found SOIC127P600X175-8N
+Change Component Footprint: Designator=P9 Old Footprint=XH2.54M-4 New Footprint=Header4
+Change Component Designator: OldDesignator=P9 NewDesignator=H?
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component C8 10n/300VAC
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component H2 FAN1
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component J3 To_Switch
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component Q3
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component Q4 300V/14A
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component Q5
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R98 20K
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R113 5.1K

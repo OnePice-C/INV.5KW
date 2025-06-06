@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=SCH_BLOCK.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=SCH_BLOCK.SchDoc|Designator=U_SCH_MCU|SchDesignator=U_SCH_MCU|FileName=SCH_MCU.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=SCH_MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=SCH_BLOCK.SchDoc|Designator=U_SCH_SOURCE|SchDesignator=U_SCH_SOURCE|FileName=SCH_SOURCE.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=SCH_SOURCE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

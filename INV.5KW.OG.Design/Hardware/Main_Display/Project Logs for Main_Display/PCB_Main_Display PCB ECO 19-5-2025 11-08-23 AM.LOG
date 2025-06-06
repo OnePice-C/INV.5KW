@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=LCD_PSB Pin=U1-23
+Removed Pin From Net: NetName=LCD_RES Pin=U1-24
+Removed Pin From Net: NetName=LCD_PSB Pin=U1-42
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=LCD_PSB Pin=U1-17
+Added Pin To Net: NetName=LCD_RES Pin=U1-18

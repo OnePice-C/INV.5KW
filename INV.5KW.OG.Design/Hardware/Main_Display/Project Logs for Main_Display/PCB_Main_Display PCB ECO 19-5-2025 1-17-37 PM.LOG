@@ -1,0 +1,78 @@
+Removed Pin From Net: NetName=NetLED1_3 Pin=Q1-2
+Removed Pin From Net: NetName=NetLED1_1 Pin=Q2-2
+Removed Pin From Net: NetName=NetLED2_3 Pin=Q4-2
+Removed Pin From Net: NetName=NetLED2_1 Pin=Q5-2
+Removed Pin From Net: NetName=NetLED3_3 Pin=Q6-2
+Removed Pin From Net: NetName=NetLED3_1 Pin=Q7-2
+Added Component: Designator=R78(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R79(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R81(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R82(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R83(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLED1_3 Pin=R78-2
+Added Pin To Net: NetName=NetLED1_1 Pin=R79-2
+Added Pin To Net: NetName=NetLED2_3 Pin=R80-2
+Added Pin To Net: NetName=NetLED2_1 Pin=R81-2
+Added Pin To Net: NetName=NetLED3_3 Pin=R82-2
+Added Pin To Net: NetName=NetLED3_1 Pin=R83-2
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R78-1
+Added Net: Name=NetQ1_2
+Added Pin To Net: NetName=NetQ2_2 Pin=Q2-2
+Added Pin To Net: NetName=NetQ2_2 Pin=R79-1
+Added Net: Name=NetQ2_2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q4-2
+Added Pin To Net: NetName=NetQ4_2 Pin=R80-1
+Added Net: Name=NetQ4_2
+Added Pin To Net: NetName=NetQ5_2 Pin=Q5-2
+Added Pin To Net: NetName=NetQ5_2 Pin=R81-1
+Added Net: Name=NetQ5_2
+Added Pin To Net: NetName=NetQ6_2 Pin=Q6-2
+Added Pin To Net: NetName=NetQ6_2 Pin=R82-1
+Added Net: Name=NetQ6_2
+Added Pin To Net: NetName=NetQ7_2 Pin=Q7-2
+Added Pin To Net: NetName=NetQ7_2 Pin=R83-1
+Added Net: Name=NetQ7_2
+Added Member To Class: ClassName=SCH_MCU Member=Component R78 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R79 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R80 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R81 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R82 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R83 0805/200R

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetC87_2 Pin=L8-1
+Removed Pin From Net: NetName=NetC88_1 Pin=L8-2
+Removed Pin From Net: NetName=NEG Pin=L8-3
+Removed Pin From Net: NetName=NetC86_2 Pin=L8-4
+Added Pin To Net: NetName=NetC86_2 Pin=L8-1
+Added Pin To Net: NetName=NEG Pin=L8-2
+Added Pin To Net: NetName=NetC88_1 Pin=L8-3
+Added Pin To Net: NetName=NetC87_2 Pin=L8-4

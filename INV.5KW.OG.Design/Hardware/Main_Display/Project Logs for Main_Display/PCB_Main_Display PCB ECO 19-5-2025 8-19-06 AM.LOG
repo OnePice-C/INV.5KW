@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=VIN Pin=C30-1
+Removed Pin From Net: NetName=GND Pin=C30-2
+Removed Member From Class: ClassName=SCH_SOURCE Member=C30
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Room: Name=SCH_MCU
+Added Room: Name=SCH_SOURCE

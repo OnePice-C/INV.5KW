@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetR24_7 Pin=R24-7
+Removed Pin From Net: NetName=NetR24_8 Pin=R24-8
+Removed Pin From Net: NetName=NetR24_6 Pin=R32-3
+Removed Pin From Net: NetName=NetR24_5 Pin=R32-4
+Removed Pin From Net: NetName=NetR24_1 Pin=U1-5
+Removed Pin From Net: NetName=NetR24_2 Pin=U1-6
+Removed Pin From Net: NetName=NetR24_6 Pin=U11-9
+Removed Pin From Net: NetName=NetR24_5 Pin=U11-13
+Added Pin To Net: NetName=NetR24_7 Pin=R24-3
+Added Pin To Net: NetName=NetR24_8 Pin=R24-4
+Added Pin To Net: NetName=NetR24_2 Pin=R32-3
+Added Pin To Net: NetName=NetR24_1 Pin=R32-4
+Added Pin To Net: NetName=NetR24_5 Pin=U1-5
+Added Pin To Net: NetName=NetR24_6 Pin=U1-6
+Added Pin To Net: NetName=NetR24_2 Pin=U11-9
+Added Pin To Net: NetName=NetR24_1 Pin=U11-13
+Change Net Name : Old Net Name=NetR24_7 New Net Name=NetR24_3
+Change Net Name : Old Net Name=NetR24_8 New Net Name=NetR24_4
+Added Pin To Net: NetName=NetR24_7 Pin=R24-7
+Added Pin To Net: NetName=NetR24_7 Pin=U1-98
+Added Net: Name=NetR24_7
+Added Pin To Net: NetName=NetR24_8 Pin=R24-8
+Added Pin To Net: NetName=NetR24_8 Pin=U1-99
+Added Net: Name=NetR24_8

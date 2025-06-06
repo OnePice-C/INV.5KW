@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=BUS + NewDesignator=BUS+
+Added Member To Class: ClassName=INV.Main.SCH Member=Component PE3 PE

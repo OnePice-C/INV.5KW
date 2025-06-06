@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=BAT+ NewDesignator=BAT+1
+Change Component Designator: OldDesignator=BAT- NewDesignator=BAT-1
+Change Component Designator: OldDesignator=BUS +1 NewDesignator=BUS +
+Change Component Designator: OldDesignator=NEG1 NewDesignator=NEG
+Added Member To Class: ClassName=INV.Main.SCH Member=Component PE3 PE

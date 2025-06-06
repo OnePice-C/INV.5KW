@@ -1,0 +1,22 @@
+Added Component: Designator=M2(COPER)
+Added Component: Designator=M4(COPER)
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetC8_2 Pin=M2-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Pin To Net: NetName=NetM4_1 Pin=M4-1
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component M2 PE
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component M4 PE

@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=SPI_INT Pin=J2-12
+Removed Pin From Net: NetName=SPI_SCK Pin=J2-13
+Removed Pin From Net: NetName=SPI_MOSI Pin=J2-14
+Removed Pin From Net: NetName=SPI_MISO Pin=J2-15
+Removed Pin From Net: NetName=SPI_CS Pin=J2-16
+Change Component Designator: OldDesignator=via? NewDesignator=via1
+Change Component Designator: OldDesignator=via? NewDesignator=via2
+Change Component Designator: OldDesignator=via? NewDesignator=via3
+Change Component Designator: OldDesignator=via? NewDesignator=via4
+Added Component: Designator=R84(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R85(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R86(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R87(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R88(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SPI_CS Pin=R84-1
+Added Pin To Net: NetName=SPI_MISO Pin=R85-1
+Added Pin To Net: NetName=SPI_MOSI Pin=R86-1
+Added Pin To Net: NetName=SPI_SCK Pin=R87-1
+Added Pin To Net: NetName=SPI_INT Pin=R88-1
+Added Pin To Net: NetName=NetJ2_12 Pin=J2-12
+Added Pin To Net: NetName=NetJ2_12 Pin=R88-2
+Added Net: Name=NetJ2_12
+Added Pin To Net: NetName=NetJ2_13 Pin=J2-13
+Added Pin To Net: NetName=NetJ2_13 Pin=R87-2
+Added Net: Name=NetJ2_13
+Added Pin To Net: NetName=NetJ2_14 Pin=J2-14
+Added Pin To Net: NetName=NetJ2_14 Pin=R86-2
+Added Net: Name=NetJ2_14
+Added Pin To Net: NetName=NetJ2_15 Pin=J2-15
+Added Pin To Net: NetName=NetJ2_15 Pin=R85-2
+Added Net: Name=NetJ2_15
+Added Pin To Net: NetName=NetJ2_16 Pin=J2-16
+Added Pin To Net: NetName=NetJ2_16 Pin=R84-2
+Added Net: Name=NetJ2_16
+Added Member To Class: ClassName=SCH_MCU Member=Component R84 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R85 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R86 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R87 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R88 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component via1 via
+Added Member To Class: ClassName=SCH_MCU Member=Component via2 via
+Added Member To Class: ClassName=SCH_MCU Member=Component via3 via

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SPI_INT Pin=U1-29
+Removed Pin From Net: NetName=SPI_CS Pin=U1-67
+Added Pin To Net: NetName=SPI_CS Pin=U1-29
+Added Pin To Net: NetName=SPI_INT Pin=U1-67
+Added Member To Class: ClassName=SCH_MCU Member=Component via4 via

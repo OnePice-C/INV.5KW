@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportImportMemento.1>
+<VarMeta IMemento.internal.id="stringINV_ADC_fault"/>
+<VarMeta IMemento.internal.id="stringINV_clearPWMTrip"/>
+<VarMeta IMemento.internal.id="stringINV_Boost1_Duty_Ref"/>
+<VarMeta IMemento.internal.id="stringINV_Boost2_Duty_Ref"/>
+<VarMeta IMemento.internal.id="Batt1_Duty_Cycle"/>
+<VarMeta IMemento.internal.id="Batt2_Duty_Cycle"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_Index_Modulation"/>
+</ExportImportMemento.1>

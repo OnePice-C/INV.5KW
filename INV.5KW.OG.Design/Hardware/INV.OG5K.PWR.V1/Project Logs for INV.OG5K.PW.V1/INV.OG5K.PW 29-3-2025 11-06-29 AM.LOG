@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetC16_2 Pin=K4-4
+Removed Pin From Net: NetName=+12V Pin=K5-3
+Removed Pin From Net: NetName=NetC16_2 Pin=L2-3
+Removed Member From Class: ClassName=INV.OG5K.PW.V1 Member=P7
+Change Component Description : Designator=U9 Old Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC New Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC | ON Semiconductor TL431BIDR2G
+Added Pin To Net: NetName=BUS +10/12V Pin=K5-3
+Added Pin To Net: NetName=NetK4_4 Pin=K4-4
+Added Pin To Net: NetName=NetK4_4 Pin=K5-4
+Added Pin To Net: NetName=NetK4_4 Pin=L2-3
+Added Net: Name=NetK4_4
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component L5 220uH
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R143
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R146
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R147

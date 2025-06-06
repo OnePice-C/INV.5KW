@@ -1,0 +1,17 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [INV.OG5K.MAIN.PRJ.PrjPcb]
+   Generated File[INV.MAIN.PCB1-RoundHoles-Plated.TXT]
+   Generated File[INV.MAIN.PCB1-SquareHoles-Plated.TXT]
+   Generated File[INV.MAIN.PCB1-SlotHoles-Plated.TXT]
+   Generated File[INV.MAIN.PCB1-SlotHoles-NonPlated.TXT]
+   Generated File[INV.MAIN.PCB1-RectHoles-Plated.TXT]
+   Generated File[INV.MAIN.PCB1.DRL]
+   Generated File[INV.MAIN.PCB1.LDP]
+   Generated File[INV.MAIN.PCB1.DRR]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 6:14:57 PM On 22/3/2025

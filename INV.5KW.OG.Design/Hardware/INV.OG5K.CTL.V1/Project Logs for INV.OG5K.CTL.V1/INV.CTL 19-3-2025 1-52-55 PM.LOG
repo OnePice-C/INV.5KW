@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=NetC40_1 Pin=U7-1
+Removed Pin From Net: NetName=NetC40_2 Pin=U7-2
+Removed Pin From Net: NetName=NetC48_2 Pin=U7-3
+Removed Pin From Net: NetName=+12V Pin=U7-4
+Removed Pin From Net: NetName=NetC61_2 Pin=U7-5
+Removed Pin From Net: NetName=NetC58_2 Pin=U7-6
+Removed Pin From Net: NetName=NetC58_1 Pin=U7-7
+Removed Pin From Net: NetName=NetC72_1 Pin=U7-8
+Removed Pin From Net: NetName=NetC72_2 Pin=U7-9
+Removed Pin From Net: NetName=NetC85_2 Pin=U7-10
+Removed Pin From Net: NetName=-12V Pin=U7-11
+Removed Pin From Net: NetName=NetC85_1 Pin=U7-12
+Removed Pin From Net: NetName=NetR107_1 Pin=U7-13
+Removed Pin From Net: NetName=NetR107_1 Pin=U7-14
+Added Component: Designator=U7(SO14)
+Add component (AddParameter): Name = "Amplifier Type"; Value = "J-FET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Input Bias"; Value = "50pA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output / Channel"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Supply"; Value = "8mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth Product"; Value = "3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LF347BD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "14-SOIC (3.9mm Width), 14-SOL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "13 V/µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-7136-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7136-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "pristel=Nsc\nsanopea\<parttype>.ckt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input Offset"; Value = "3000µV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply, Single/Dual (±)"; Value = "7 V ~ 36 V, ±3.5 V ~ 18 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC72_1 Pin=U7-1
+Added Pin To Net: NetName=NetC72_2 Pin=U7-2
+Added Pin To Net: NetName=NetC85_2 Pin=U7-3
+Added Pin To Net: NetName=+12V Pin=U7-4
+Added Pin To Net: NetName=NetC48_2 Pin=U7-5
+Added Pin To Net: NetName=NetC85_1 Pin=U7-5
+Added Pin To Net: NetName=NetC40_2 Pin=U7-6
+Added Pin To Net: NetName=NetR107_1 Pin=U7-6
+Added Pin To Net: NetName=NetC40_1 Pin=U7-7
+Added Pin To Net: NetName=NetR107_1 Pin=U7-7
+Added Pin To Net: NetName=-12V Pin=U7-11
+Added Pin To Net: NetName=NetC61_2 Pin=U7-12
+Added Pin To Net: NetName=NetC58_2 Pin=U7-13
+Added Pin To Net: NetName=NetC58_1 Pin=U7-14
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component U7 TL084

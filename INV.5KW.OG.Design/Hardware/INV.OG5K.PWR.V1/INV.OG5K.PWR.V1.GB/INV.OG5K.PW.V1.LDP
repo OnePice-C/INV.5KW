@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: D:\DTKH.INV.13.OFG\INV.5KW.OG.Design\Hardware\INV.OG5K.PWR.V1\INV.OG5K.V1.GB\INV.OG5K.PW.V1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=inv.og5k.pw.v1-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=inv.og5k.pw.v1-slotholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=inv.og5k.pw.v1-rectholes.txt|DrillLayers=gtl,gbl

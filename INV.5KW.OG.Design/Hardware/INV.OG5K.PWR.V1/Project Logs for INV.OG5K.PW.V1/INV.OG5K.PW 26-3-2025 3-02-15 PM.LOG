@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NEG Pin=L8-2
+Removed Pin From Net: NetName=NetC88_1 Pin=L8-3
+Change Component Footprint: Designator=C20 Old Footprint=CAP-SMD-0805 EX New Footprint=CAP-TH_L10.5-W5.0-P7.50-D1.2
+Added Pin To Net: NetName=NetC88_1 Pin=L8-2
+Added Pin To Net: NetName=NEG Pin=L8-3

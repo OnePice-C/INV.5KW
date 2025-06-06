@@ -1,0 +1,13 @@
+"./syscfg/board.obj"
+"./syscfg/c2000ware_libraries.obj"
+"./inv_hr_main.obj"
+"./device/device.obj"
+"./device/f28p65x_codestartbranch.obj"
+"./libraries/DCL/DCL_DF22_C1.obj"
+"./libraries/sfra/sfra_gui_scicomms_driverlib.obj"
+"../28p65x_generic_flash_lnk_cpu1.cmd"
+"C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/ccs/Debug/driverlib.lib"
+"../libraries/FPUfastRTS/rts2800_fpu32_fast_supplement_eabi.lib"
+"../libraries/sfra/sfra_f32_tmu_eabi.lib"
+-lc2000ware_libraries.cmd.genlibs
+-llibc.a

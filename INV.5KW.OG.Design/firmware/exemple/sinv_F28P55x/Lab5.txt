@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportImportMemento.1>
+<VarMeta IMemento.internal.id="stringINV_ADC_fault"/>
+<VarMeta IMemento.internal.id="stringINV_clearPWMTripBoost"/>
+<VarMeta IMemento.internal.id="stringINV_enableDCRelay"/>
+<VarMeta IMemento.internal.id="stringINV_clearPWMTripDCDC"/>
+<VarMeta IMemento.internal.id="stringINV_Boost1_Duty_Ref"/>
+<VarMeta IMemento.internal.id="stringINV_FAULT_FLAGS"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_CS_Batt1_sensed"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_CS_Batt2_sensed"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_VS_Batt_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_ACDC_vDC_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_vDC_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_CS_Batt_Ref"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_CS_Boost1_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_CS_Boost2_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_VS_Boost1_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="stringINV_DCDC_VS_Boost2_sensed_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_Boost1_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_Boost2_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_Batt_H1_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_Batt_L1_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_Batt_H2_FILTER"/>
+<VarMeta IMemento.internal.id="TEMP_Batt_L2_FILTER"/>
+<VarMeta IMemento.internal.id="Batt1_Duty_Cycle"/>
+<VarMeta IMemento.internal.id="Batt2_Duty_Cycle"/>
+<VarMeta IMemento.internal.id="gi_Batt_pi_1"/>
+<VarMeta IMemento.internal.id="gi_Batt_pi_2"/>
+<VarMeta IMemento.internal.id="stringINV_stop"/>
+</ExportImportMemento.1>

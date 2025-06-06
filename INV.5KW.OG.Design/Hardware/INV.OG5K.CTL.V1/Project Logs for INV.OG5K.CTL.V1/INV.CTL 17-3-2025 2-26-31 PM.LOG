@@ -1,0 +1,103 @@
+Change Component Footprint: Designator=D1 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D2 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D3 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D4 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D5 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D6 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D7 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D8 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D9 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D10 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D11 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D12 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D13 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D16 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D17 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D18 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D19 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D20 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D21 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Footprint: Designator=D22 Old Footprint=SOT-23 New Footprint=SOT23-132
+Change Component Designator: OldDesignator=C10 NewDesignator=C12
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C10
+Change Component Designator: OldDesignator=C13 NewDesignator=C11
+Added Component: Designator=D15(SOT23-132)
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_description"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_keywords"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Dual_Diode_CA"; VariantName = "[No Variations]"
+Added Component: Designator=J1(Header 2x50)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D15-1
+Added Pin To Net: NetName=+3.3V Pin=D15-2
+Added Pin To Net: NetName=NetC54_1 Pin=D15-3
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-4
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_7 Pin=J1-7
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-9
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-10
+Added Pin To Net: NetName=NetJ1_11 Pin=J1-11
+Added Pin To Net: NetName=NetJ1_11 Pin=J1-12
+Added Pin To Net: NetName=NetJ1_13 Pin=J1-13
+Added Pin To Net: NetName=NetJ1_14 Pin=J1-14
+Added Pin To Net: NetName=NetJ1_13 Pin=J1-15
+Added Pin To Net: NetName=NetJ1_14 Pin=J1-16
+Added Pin To Net: NetName=NetJ1_17 Pin=J1-17
+Added Pin To Net: NetName=NetJ1_18 Pin=J1-18
+Added Pin To Net: NetName=NetJ1_19 Pin=J1-19
+Added Pin To Net: NetName=NetJ1_20 Pin=J1-20
+Added Pin To Net: NetName=NetJ1_21 Pin=J1-21
+Added Pin To Net: NetName=NetJ1_22 Pin=J1-22
+Added Pin To Net: NetName=NetJ1_23 Pin=J1-23
+Added Pin To Net: NetName=NetJ1_24 Pin=J1-24
+Added Pin To Net: NetName=NetJ1_25 Pin=J1-25
+Added Pin To Net: NetName=NetJ1_26 Pin=J1-26
+Added Pin To Net: NetName=NetC64_2 Pin=J1-27
+Added Pin To Net: NetName=NetC63_1 Pin=J1-28
+Added Pin To Net: NetName=NetJ1_29 Pin=J1-29
+Added Pin To Net: NetName=NetJ1_30 Pin=J1-30
+Added Pin To Net: NetName=NetJ1_31 Pin=J1-31
+Added Pin To Net: NetName=NetJ1_32 Pin=J1-32
+Added Pin To Net: NetName=NetJ1_33 Pin=J1-33
+Added Pin To Net: NetName=NetJ1_34 Pin=J1-34
+Added Pin To Net: NetName=GND Pin=J1-35
+Added Pin To Net: NetName=NetJ1_36 Pin=J1-36
+Added Pin To Net: NetName=GND Pin=J1-37
+Added Pin To Net: NetName=GND Pin=J1-38
+Added Pin To Net: NetName=NetD13_3 Pin=J1-39
+Added Pin To Net: NetName=NetJ1_40 Pin=J1-40
+Added Pin To Net: NetName=NetJ1_41 Pin=J1-41
+Added Pin To Net: NetName=NetJ1_42 Pin=J1-42
+Added Pin To Net: NetName=-12V Pin=J1-43
+Added Pin To Net: NetName=-12V Pin=J1-44
+Added Pin To Net: NetName=GND Pin=J1-45
+Added Pin To Net: NetName=GND Pin=J1-46
+Added Pin To Net: NetName=NetC7_2 Pin=J1-47
+Added Pin To Net: NetName=NetC7_2 Pin=J1-48
+Added Pin To Net: NetName=+12V Pin=J1-49
+Added Pin To Net: NetName=+12V Pin=J1-50
+Add Pin To Net: Unknown Pin: Pin JP1-1
+Add Pin To Net: Unknown Pin: Pin JP1-2
+Add Pin To Net: Unknown Pin: Pin JP1-3
+Add Pin To Net: Unknown Pin: Pin JP1-4
+Add Pin To Net: Unknown Pin: Pin JP1-5
+Add Pin To Net: Unknown Pin: Pin JP1-7
+Add Pin To Net: Unknown Pin: Pin JP1-8
+Add Pin To Net: Unknown Pin: Pin JP1-9
+Add Pin To Net: Unknown Pin: Pin JP1-10
+Add Pin To Net: Unknown Pin: Pin JP1-11
+Add Pin To Net: Unknown Pin: Pin JP1-12
+Add Pin To Net: Unknown Pin: Pin JP1-13
+Add Pin To Net: Unknown Pin: Pin JP1-14
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D15 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component J1 Header 25x2
+Add Class Member: Failed to add class member : Component JP1 JTAG

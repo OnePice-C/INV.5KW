@@ -1,0 +1,7 @@
+Added Component: Designator=M5(Copper Pipe 4 DIP)
+Added Pin To Net: NetName=PE PV Pin=M5-1
+Added Pin To Net: NetName=PE PV Pin=M5-1
+Added Pin To Net: NetName=PE PV Pin=M5-1
+Added Pin To Net: NetName=PE PV Pin=M5-1
+Added Pin To Net: NetName=PE PV Pin=M5-1
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component M5 PE

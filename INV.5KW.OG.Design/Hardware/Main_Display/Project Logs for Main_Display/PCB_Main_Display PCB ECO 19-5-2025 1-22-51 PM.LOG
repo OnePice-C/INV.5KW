@@ -1,0 +1,24 @@
+Removed Member From Class: ClassName=SCH_MCU Member=via1
+Removed Member From Class: ClassName=SCH_MCU Member=via2
+Removed Member From Class: ClassName=SCH_MCU Member=via3
+Removed Member From Class: ClassName=SCH_MCU Member=via4
+Added Component: Designator=via?(VIA_LO)
+Added Component: Designator=via?(VIA_LO)
+Added Component: Designator=via?(VIA_LO)
+Added Component: Designator=via?(VIA_LO)
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via

@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=L4 NewDesignator=L1 PV
+Change Net Name : Old Net Name=NetL4_1 New Net Name=NetL1 PV_1
+Added Member To Class: ClassName=INV.Main.SCH Member=Component PE3 PE

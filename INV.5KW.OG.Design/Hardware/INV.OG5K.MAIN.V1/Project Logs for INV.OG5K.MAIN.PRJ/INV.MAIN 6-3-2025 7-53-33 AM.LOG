@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=BAT+1 NewDesignator=BAT+
+Change Component Designator: OldDesignator=BAT-1 NewDesignator=BAT-
+Change Net Name : Old Net Name=NetBAT+1_1 New Net Name=NetBAT+_1
+Change Net Name : Old Net Name=NetBAT-1_1 New Net Name=NetBAT-_1
+Added Member To Class: ClassName=INV.Main.SCH Member=Component PE3 PE

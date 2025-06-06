@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetK1_1 Pin=K1-1
+Removed Pin From Net: NetName=BUS +10/12V Pin=K1-3
+Added Pin To Net: NetName=BUS +10/12V Pin=K1-2
+Added Pin To Net: NetName=NetK1_1 Pin=K1-4
+Change Net Name : Old Net Name=NetK1_1 New Net Name=NetK1_4
+Added Pin To Net: NetName=NetK1_1 Pin=K1-1
+Added Pin To Net: NetName=NetK1_1 Pin=K2-1
+Added Pin To Net: NetName=NetK1_1 Pin=L2-4
+Added Net: Name=NetK1_1
+Added Pin To Net: NetName=NetK1_3 Pin=K1-3
+Added Pin To Net: NetName=NetK1_3 Pin=U2-11
+Added Net: Name=NetK1_3

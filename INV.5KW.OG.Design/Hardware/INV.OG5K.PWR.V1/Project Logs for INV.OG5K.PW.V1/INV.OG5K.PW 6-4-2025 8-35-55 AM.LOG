@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=NetH8_23 Pin=H8-23
+Removed Pin From Net: NetName=NetH8_25 Pin=H8-25
+Added Component: Designator=D9(SMB)
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBT1_1 Pin=D9-2
+Added Pin To Net: NetName=NetH8_25 Pin=H8-27
+Added Pin To Net: NetName=NetH8_23 Pin=H8-28
+Change Net Name : Old Net Name=NetH8_23 New Net Name=NetH8_28
+Change Net Name : Old Net Name=NetH8_25 New Net Name=NetH8_27
+Added Pin To Net: NetName=NetH8_23 Pin=H8-23
+Added Pin To Net: NetName=NetH8_23 Pin=R51-2
+Added Pin To Net: NetName=NetH8_23 Pin=R53-1
+Added Net: Name=NetH8_23
+Added Pin To Net: NetName=NetH8_25 Pin=H8-25
+Added Pin To Net: NetName=NetH8_25 Pin=R47-2
+Added Pin To Net: NetName=NetH8_25 Pin=R48-1
+Added Net: Name=NetH8_25
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component D9 EFMB208

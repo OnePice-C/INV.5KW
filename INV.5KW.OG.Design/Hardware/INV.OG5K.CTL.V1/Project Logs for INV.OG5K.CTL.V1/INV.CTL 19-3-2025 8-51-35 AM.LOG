@@ -1,0 +1,25 @@
+Removed Member From Class: ClassName=INV.CTL.V1 Member=D?
+Change Component Designator: OldDesignator=C11 NewDesignator=C18
+Change Component Designator: OldDesignator=C12 NewDesignator=C11
+Change Component Designator: OldDesignator=C13 NewDesignator=C12
+Change Component Designator: OldDesignator=C14 NewDesignator=C13
+Change Component Designator: OldDesignator=C15 NewDesignator=C14
+Change Component Designator: OldDesignator=C16 NewDesignator=C15
+Change Component Designator: OldDesignator=C17 NewDesignator=C16
+Change Component Designator: OldDesignator=C18 NewDesignator=C17
+Change Component Designator: OldDesignator=C53 NewDesignator=C54
+Change Component Designator: OldDesignator=C54 NewDesignator=C53
+Change Component Designator: OldDesignator=D16 NewDesignator=D17
+Change Component Designator: OldDesignator=D17 NewDesignator=D18
+Change Component Designator: OldDesignator=D18 NewDesignator=D19
+Change Component Designator: OldDesignator=D19 NewDesignator=D20
+Change Component Designator: OldDesignator=D20 NewDesignator=D21
+Change Component Designator: OldDesignator=D21 NewDesignator=D24
+Change Component Designator: OldDesignator=D22 NewDesignator=D25
+Change Component Designator: OldDesignator=D? NewDesignator=D16
+Change Component Designator: OldDesignator=D? NewDesignator=D22
+Change Component Designator: OldDesignator=D? NewDesignator=D23
+Change Net Name : Old Net Name=NetC53_1 New Net Name=NetC54_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D23 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D24 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D25 Dual-Diode_CA_1

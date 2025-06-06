@@ -1,0 +1,39 @@
+Removed Member From Class: ClassName=INV.OG5K.PW.V1 Member=H?
+Change Component Designator: OldDesignator=C35 NewDesignator=C37
+Change Component Designator: OldDesignator=C36 NewDesignator=C35
+Change Component Designator: OldDesignator=C37 NewDesignator=C36
+Change Component Designator: OldDesignator=H2 NewDesignator=H3
+Change Component Designator: OldDesignator=H3 NewDesignator=H6
+Change Component Designator: OldDesignator=H? NewDesignator=H2
+Change Component Designator: OldDesignator=J1 NewDesignator=H4
+Change Component Designator: OldDesignator=J2 NewDesignator=H5
+Change Component Designator: OldDesignator=J3 NewDesignator=H7
+Change Component Designator: OldDesignator=J4 NewDesignator=H8
+Change Component Designator: OldDesignator=P10 NewDesignator=P9
+Change Component Designator: OldDesignator=P11 NewDesignator=P10
+Change Component Designator: OldDesignator=P12 NewDesignator=P11
+Change Component Designator: OldDesignator=P13 NewDesignator=P12
+Change Net Name : Old Net Name=NetH2_1 New Net Name=NetH3_1
+Change Net Name : Old Net Name=NetH3_1 New Net Name=NetH6_1
+Change Net Name : Old Net Name=NetJ4_1 New Net Name=NetH8_1
+Change Net Name : Old Net Name=NetJ4_2 New Net Name=NetH8_2
+Change Net Name : Old Net Name=NetJ4_4 New Net Name=NetH8_4
+Change Net Name : Old Net Name=NetJ4_5 New Net Name=NetH8_5
+Change Net Name : Old Net Name=NetJ4_6 New Net Name=NetH8_6
+Change Net Name : Old Net Name=NetJ4_7 New Net Name=NetH8_7
+Change Net Name : Old Net Name=NetJ4_8 New Net Name=NetH8_8
+Change Net Name : Old Net Name=NetJ4_9 New Net Name=NetH8_9
+Change Net Name : Old Net Name=NetJ4_10 New Net Name=NetH8_10
+Change Net Name : Old Net Name=NetJ4_18 New Net Name=NetH8_18
+Change Net Name : Old Net Name=NetJ4_21 New Net Name=NetH8_21
+Change Net Name : Old Net Name=NetJ4_22 New Net Name=NetH8_22
+Change Net Name : Old Net Name=NetJ4_23 New Net Name=NetH8_23
+Change Net Name : Old Net Name=NetJ4_24 New Net Name=NetH8_24
+Change Net Name : Old Net Name=NetJ4_25 New Net Name=NetH8_25
+Change Net Name : Old Net Name=NetJ4_26 New Net Name=NetH8_26
+Change Net Name : Old Net Name=NetJ4_27 New Net Name=NetH8_27
+Change Net Name : Old Net Name=NetJ4_28 New Net Name=NetH8_28
+Change Net Name : Old Net Name=NetJ4_29 New Net Name=NetH8_29
+Change Net Name : Old Net Name=NetJ4_30 New Net Name=NetH8_30
+Change Net Name : Old Net Name=NetP11_1 New Net Name=NetP10_1
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component H6 FAN2

@@ -1,0 +1,16 @@
+Added Component: Designator=L2(LAC1OG5K-V1)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Loc 220"; VariantName = "[No Variations]"
+Added Component: Designator=L9(LPVOG5K-V1)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Loc 220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC8_1 Pin=L2-1
+Added Pin To Net: NetName=NetC12_1 Pin=L2-2
+Added Pin To Net: NetName=NetC13_1 Pin=L2-3
+Added Pin To Net: NetName=NetC7_1 Pin=L2-4
+Added Pin To Net: NetName=NetC87_2 Pin=L9-1
+Added Pin To Net: NetName=NetC88_1 Pin=L9-2
+Added Pin To Net: NetName=NEG Pin=L9-3
+Added Pin To Net: NetName=NetC86_2 Pin=L9-4
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component L2 L
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component L9 L

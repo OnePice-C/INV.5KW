@@ -1,0 +1,29 @@
+Added Component: Designator=M1(COPER)
+Added Component: Designator=M3(COPER)
+Added Component: Designator=R146(RES-SMD-0603 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC10_2 Pin=M1-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetC7_2 Pin=M3-1
+Added Pin To Net: NetName=NetH8_29 Pin=R146-2
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component M1 PE
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component M3 PE
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R146

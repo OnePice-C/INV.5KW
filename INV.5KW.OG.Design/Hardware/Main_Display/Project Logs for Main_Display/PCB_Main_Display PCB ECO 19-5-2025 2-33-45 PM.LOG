@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=R22 Old Footprint=RES-SMD-1206 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R26 Old Footprint=RES-SMD-1206 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R37 Old Footprint=RES-SMD-1206 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R41 Old Footprint=RES-SMD-1206 New Footprint=RES-SMD-0805
+Change Component Comment : Designator=R22 Old Comment=1206/10R New Comment=0805/10R
+Change Component Comment : Designator=R26 Old Comment=1206/10R New Comment=0805/10R
+Change Component Comment : Designator=R37 Old Comment=1206/10R New Comment=0805/10R
+Change Component Comment : Designator=R41 Old Comment=1206/10R New Comment=0805/10R
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via

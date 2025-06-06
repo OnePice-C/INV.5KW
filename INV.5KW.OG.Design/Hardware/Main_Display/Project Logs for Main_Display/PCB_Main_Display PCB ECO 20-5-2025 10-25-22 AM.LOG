@@ -1,0 +1,77 @@
+Removed Member From Class: ClassName=SCH_SOURCE Member=C2
+Removed Member From Class: ClassName=SCH_SOURCE Member=C6
+Removed Member From Class: ClassName=SCH_SOURCE Member=R3
+Removed Member From Class: ClassName=SCH_SOURCE Member=R15
+Removed Member From Class: ClassName=SCH_SOURCE Member=R30
+Removed Member From Class: ClassName=SCH_MCU Member=R79
+Change Component Designator: OldDesignator=1 NewDesignator=R83
+Change Net Name : Old Net Name=Net1_1 New Net Name=NetHD2_2
+Added Member To Class: ClassName=SCH_MCU Member=Component C3 0603/22pF
+Added Member To Class: ClassName=SCH_MCU Member=Component C5 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C6 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C7 0603/10uF
+Added Member To Class: ClassName=SCH_MCU Member=Component C9 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C10 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C11 0603/100pF
+Added Member To Class: ClassName=SCH_MCU Member=Component C12 0603/1uF
+Added Member To Class: ClassName=SCH_MCU Member=Component C13 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C14 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C15 0603/100pF
+Added Member To Class: ClassName=SCH_MCU Member=Component C16 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C17 0603/22pF
+Added Member To Class: ClassName=SCH_MCU Member=Component C18 0603/22pF
+Added Member To Class: ClassName=SCH_MCU Member=Component C19 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C20 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C21 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C22 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component C25 0603/1uF
+Added Member To Class: ClassName=SCH_MCU Member=Component C26 0603/22pF
+Added Member To Class: ClassName=SCH_SOURCE Member=Component C38 0603/100nF
+Added Member To Class: ClassName=SCH_SOURCE Member=Component C40 0603/100nF
+Added Member To Class: ClassName=SCH_SOURCE Member=Component C41 0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component R4 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R6 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R7 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R8 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R9 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R10 0603/1K
+Added Member To Class: ClassName=SCH_MCU Member=Component R11 0603/1K
+Added Member To Class: ClassName=SCH_MCU Member=Component R12 0603/1M
+Added Member To Class: ClassName=SCH_MCU Member=Component R13 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R14 0603/1K
+Added Member To Class: ClassName=SCH_MCU Member=Component R16 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R17 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R18 0603/1K
+Added Member To Class: ClassName=SCH_MCU Member=Component R19 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R20 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R22 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R24 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R26 0603/100R
+Added Member To Class: ClassName=SCH_MCU Member=Component R28 0603/100R
+Added Member To Class: ClassName=SCH_MCU Member=Component R30 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R31 0603/100R
+Added Member To Class: ClassName=SCH_MCU Member=Component R32 0805/10R
+Added Member To Class: ClassName=SCH_MCU Member=Component R33 0805/200R
+Added Member To Class: ClassName=SCH_MCU Member=Component R34 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R36 0603/1K
+Added Member To Class: ClassName=SCH_MCU Member=Component R38 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R40 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R42 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R44 0805/10R
+Added Member To Class: ClassName=SCH_MCU Member=Component R48 0805/10R
+Added Member To Class: ClassName=SCH_MCU Member=Component R50 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R52 1206/120R
+Added Member To Class: ClassName=SCH_MCU Member=Component R53 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R54 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R55 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R56 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R58 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R64 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R67 0603/10K
+Added Member To Class: ClassName=SCH_MCU Member=Component R68 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R72 0603/4.7K
+Added Member To Class: ClassName=SCH_MCU Member=Component R74 0603/470R
+Added Member To Class: ClassName=SCH_SOURCE Member=Component R78 0603/4.7K
+Added Member To Class: ClassName=SCH_SOURCE Member=Component R80 0603/10K
+Added Member To Class: ClassName=SCH_SOURCE Member=Component R82 0805/0R
+Added Member To Class: ClassName=SCH_SOURCE Member=Component U6 LM1117-3.3V

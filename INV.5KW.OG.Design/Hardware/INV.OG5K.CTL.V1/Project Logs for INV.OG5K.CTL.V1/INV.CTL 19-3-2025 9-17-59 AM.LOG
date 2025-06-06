@@ -1,0 +1,148 @@
+Removed Pin From Net: NetName=GND Pin=C89-1
+Removed Pin From Net: NetName=NetC54_1 Pin=R62-1
+Removed Pin From Net: NetName=NetC69_1 Pin=R81-2
+Removed Pin From Net: NetName=NetC54_1 Pin=U4-5
+Removed Pin From Net: NetName=NetC69_1 Pin=U4-12
+Removed Member From Class: ClassName=INV.CTL.V1 Member=C98
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Change Component Designator: OldDesignator=C12 NewDesignator=C13
+Change Component Designator: OldDesignator=C13 NewDesignator=C14
+Change Component Designator: OldDesignator=C14 NewDesignator=C15
+Change Component Designator: OldDesignator=C15 NewDesignator=C16
+Change Component Designator: OldDesignator=C16 NewDesignator=C17
+Change Component Designator: OldDesignator=C17 NewDesignator=C18
+Change Component Designator: OldDesignator=C18 NewDesignator=C11
+Change Component Designator: OldDesignator=C90 NewDesignator=C89
+Change Component Designator: OldDesignator=C91 NewDesignator=C90
+Change Component Designator: OldDesignator=C92 NewDesignator=C91
+Change Component Designator: OldDesignator=C93 NewDesignator=C92
+Change Component Designator: OldDesignator=C94 NewDesignator=C93
+Change Component Designator: OldDesignator=C95 NewDesignator=C94
+Change Component Designator: OldDesignator=C96 NewDesignator=C95
+Change Component Designator: OldDesignator=C97 NewDesignator=C96
+Change Component Designator: OldDesignator=C98 NewDesignator=C97
+Change Component Designator: OldDesignator=R60 NewDesignator=R61
+Change Component Designator: OldDesignator=R61 NewDesignator=R62
+Change Component Designator: OldDesignator=R62 NewDesignator=R63
+Change Component Designator: OldDesignator=R63 NewDesignator=R64
+Change Component Designator: OldDesignator=R64 NewDesignator=R65
+Change Component Designator: OldDesignator=R65 NewDesignator=R66
+Change Component Designator: OldDesignator=R66 NewDesignator=R67
+Change Component Designator: OldDesignator=R67 NewDesignator=R68
+Change Component Designator: OldDesignator=R68 NewDesignator=R69
+Change Component Designator: OldDesignator=R69 NewDesignator=R70
+Change Component Designator: OldDesignator=R70 NewDesignator=R71
+Change Component Designator: OldDesignator=R71 NewDesignator=R72
+Change Component Designator: OldDesignator=R72 NewDesignator=R73
+Change Component Designator: OldDesignator=R73 NewDesignator=R74
+Change Component Designator: OldDesignator=R74 NewDesignator=R75
+Change Component Designator: OldDesignator=R75 NewDesignator=R76
+Change Component Designator: OldDesignator=R76 NewDesignator=R77
+Change Component Designator: OldDesignator=R77 NewDesignator=R78
+Change Component Designator: OldDesignator=R78 NewDesignator=R79
+Change Component Designator: OldDesignator=R79 NewDesignator=R81
+Change Component Designator: OldDesignator=R80 NewDesignator=R82
+Change Component Designator: OldDesignator=R81 NewDesignator=R83
+Change Component Designator: OldDesignator=R82 NewDesignator=R84
+Change Component Designator: OldDesignator=R83 NewDesignator=R85
+Change Component Designator: OldDesignator=R84 NewDesignator=R86
+Change Component Designator: OldDesignator=R85 NewDesignator=R87
+Change Component Designator: OldDesignator=R86 NewDesignator=R88
+Change Component Designator: OldDesignator=R87 NewDesignator=R89
+Change Component Designator: OldDesignator=R88 NewDesignator=R90
+Change Component Designator: OldDesignator=R89 NewDesignator=R91
+Change Component Designator: OldDesignator=R90 NewDesignator=R92
+Change Component Designator: OldDesignator=R91 NewDesignator=R93
+Change Component Designator: OldDesignator=R92 NewDesignator=R94
+Change Component Designator: OldDesignator=R93 NewDesignator=R95
+Change Component Designator: OldDesignator=R94 NewDesignator=R96
+Change Component Designator: OldDesignator=R95 NewDesignator=R97
+Change Component Designator: OldDesignator=R96 NewDesignator=R98
+Change Component Designator: OldDesignator=R97 NewDesignator=R99
+Change Component Designator: OldDesignator=R98 NewDesignator=R100
+Change Component Designator: OldDesignator=R99 NewDesignator=R101
+Change Component Designator: OldDesignator=R100 NewDesignator=R102
+Change Component Designator: OldDesignator=R101 NewDesignator=R103
+Change Component Designator: OldDesignator=R102 NewDesignator=R104
+Change Component Designator: OldDesignator=R103 NewDesignator=R105
+Change Component Designator: OldDesignator=R104 NewDesignator=R106
+Change Component Designator: OldDesignator=R105 NewDesignator=R107
+Change Component Designator: OldDesignator=R106 NewDesignator=R108
+Change Component Designator: OldDesignator=R107 NewDesignator=R109
+Change Component Designator: OldDesignator=R108 NewDesignator=R110
+Change Component Designator: OldDesignator=R109 NewDesignator=R111
+Change Component Designator: OldDesignator=R110 NewDesignator=R112
+Change Component Designator: OldDesignator=R111 NewDesignator=R114
+Change Component Designator: OldDesignator=R112 NewDesignator=R115
+Change Component Designator: OldDesignator=R113 NewDesignator=R116
+Added Component: Designator=R60(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R80(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R113(RES-SMD-0603)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC88_2 Pin=D22-3
+Added Pin To Net: NetName=NetC69_1 Pin=R53-7
+Added Pin To Net: NetName=NetC54_1 Pin=R53-8
+Added Pin To Net: NetName=NetC54_1 Pin=R60-1
+Added Pin To Net: NetName=NetC69_1 Pin=R80-2
+Change Net Name : Old Net Name=NetC90_1 New Net Name=NetC89_1
+Change Net Name : Old Net Name=NetC91_2 New Net Name=NetC90_2
+Change Net Name : Old Net Name=NetC94_2 New Net Name=NetC93_2
+Change Net Name : Old Net Name=NetC95_1 New Net Name=NetC94_1
+Change Net Name : Old Net Name=NetC96_1 New Net Name=NetC95_1
+Change Net Name : Old Net Name=NetC96_2 New Net Name=NetC95_2
+Change Net Name : Old Net Name=NetC98_1 New Net Name=NetC97_1
+Change Net Name : Old Net Name=NetR100_1 New Net Name=NetR102_1
+Change Net Name : Old Net Name=NetR104_1 New Net Name=NetR106_1
+Change Net Name : Old Net Name=NetR106_1 New Net Name=NetR108_1
+Added Pin To Net: NetName=NetC96_1 Pin=C96-1
+Added Pin To Net: NetName=NetC96_1 Pin=D25-3
+Added Pin To Net: NetName=NetC96_1 Pin=R53-5
+Added Pin To Net: NetName=NetC96_1 Pin=R113-2
+Added Net: Name=NetC96_1
+Added Pin To Net: NetName=NetR60_2 Pin=R60-2
+Added Pin To Net: NetName=NetR60_2 Pin=U4-6
+Added Pin To Net: NetName=NetR60_2 Pin=U4-7
+Added Net: Name=NetR60_2
+Added Pin To Net: NetName=NetR63_1 Pin=R63-1
+Added Pin To Net: NetName=NetR63_1 Pin=U4-5
+Added Net: Name=NetR63_1
+Added Pin To Net: NetName=NetR80_1 Pin=R80-1
+Added Pin To Net: NetName=NetR80_1 Pin=U4-13
+Added Pin To Net: NetName=NetR80_1 Pin=U4-14
+Added Net: Name=NetR80_1
+Added Pin To Net: NetName=NetR83_2 Pin=R83-2
+Added Pin To Net: NetName=NetR83_2 Pin=U4-12
+Added Net: Name=NetR83_2
+Added Pin To Net: NetName=NetR103_2 Pin=R103-2
+Added Pin To Net: NetName=NetR103_2 Pin=U5-5
+Added Net: Name=NetR103_2
+Added Pin To Net: NetName=NetR113_1 Pin=R113-1
+Added Pin To Net: NetName=NetR113_1 Pin=U5-13
+Added Pin To Net: NetName=NetR113_1 Pin=U5-14
+Added Net: Name=NetR113_1
+Added Pin To Net: NetName=NetR115_2 Pin=R115-2
+Added Pin To Net: NetName=NetR115_2 Pin=U5-12
+Added Net: Name=NetR115_2
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C12 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C14 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C16 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C18 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C53 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D16 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D18 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D20 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D22 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R114 499R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R115 10R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R116 5.1K/0603

@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GND Pin=LCD1-1
+Removed Pin From Net: NetName=VCC_5V Pin=LCD1-2
+Removed Pin From Net: NetName=NetC26_2 Pin=LCD1-3
+Removed Member From Class: ClassName=SCH_MCU Member=LCD1
+Added Component: Designator=LCD?(LCD128X64)
+Add component (AddParameter): Name = "Value"; Value = "LCD 128x64"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LCD?-1
+Added Pin To Net: NetName=VCC_5V Pin=LCD?-2
+Added Pin To Net: NetName=NetC26_2 Pin=LCD?-3
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Add Pin To Net: Unknown Pin: Pin U6-9
+Added Pin To Net: NetName=NetLCD?_4 Pin=LCD?-4
+Added Pin To Net: NetName=NetLCD?_4 Pin=R51-2
+Added Net: Name=NetLCD?_4
+Added Pin To Net: NetName=NetLCD?_5 Pin=LCD?-5
+Added Pin To Net: NetName=NetLCD?_5 Pin=R52-2
+Added Net: Name=NetLCD?_5
+Added Pin To Net: NetName=NetLCD?_6 Pin=LCD?-6
+Added Pin To Net: NetName=NetLCD?_6 Pin=R53-2
+Added Net: Name=NetLCD?_6
+Added Pin To Net: NetName=NetLCD?_11 Pin=LCD?-11
+Added Pin To Net: NetName=NetLCD?_11 Pin=R47-2
+Added Net: Name=NetLCD?_11
+Added Pin To Net: NetName=NetLCD?_12 Pin=LCD?-12
+Added Pin To Net: NetName=NetLCD?_12 Pin=R48-2
+Added Net: Name=NetLCD?_12
+Added Pin To Net: NetName=NetLCD?_13 Pin=LCD?-13
+Added Pin To Net: NetName=NetLCD?_13 Pin=R49-2
+Added Net: Name=NetLCD?_13
+Added Pin To Net: NetName=NetLCD?_14 Pin=LCD?-14
+Added Pin To Net: NetName=NetLCD?_14 Pin=R50-2
+Added Net: Name=NetLCD?_14
+Added Pin To Net: NetName=NetLCD?_15 Pin=LCD?-15
+Added Pin To Net: NetName=NetLCD?_15 Pin=R54-2
+Added Net: Name=NetLCD?_15
+Added Pin To Net: NetName=NetLCD?_17 Pin=LCD?-17
+Added Pin To Net: NetName=NetLCD?_17 Pin=R55-2
+Added Net: Name=NetLCD?_17
+Added Pin To Net: NetName=NetLCD?_19 Pin=LCD?-19
+Added Pin To Net: NetName=NetLCD?_19 Pin=R58-2
+Added Net: Name=NetLCD?_19
+Added Pin To Net: NetName=NetLCD?_20 Pin=LCD?-20
+Added Pin To Net: NetName=NetLCD?_20 Pin=Q9-3
+Added Net: Name=NetLCD?_20
+Added Member To Class: ClassName=SCH_MCU Member=Component LCD? LCD128x64

@@ -1,0 +1,25 @@
+Change Component Designator: OldDesignator=LCD? NewDesignator=LCD1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON1 Pin=SW1-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=BUTTON2 Pin=SW2-2
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW3-1
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON3 Pin=SW3-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Added Pin To Net: NetName=BUTTON4 Pin=SW4-2
+Add Pin To Net: Unknown Pin: Pin U6-9
+Change Net Name : Old Net Name=NetLCD?_4 New Net Name=NetLCD1_4
+Change Net Name : Old Net Name=NetLCD?_5 New Net Name=NetLCD1_5
+Change Net Name : Old Net Name=NetLCD?_6 New Net Name=NetLCD1_6
+Change Net Name : Old Net Name=NetLCD?_11 New Net Name=NetLCD1_11
+Change Net Name : Old Net Name=NetLCD?_12 New Net Name=NetLCD1_12
+Change Net Name : Old Net Name=NetLCD?_13 New Net Name=NetLCD1_13
+Change Net Name : Old Net Name=NetLCD?_14 New Net Name=NetLCD1_14
+Change Net Name : Old Net Name=NetLCD?_15 New Net Name=NetLCD1_15
+Change Net Name : Old Net Name=NetLCD?_17 New Net Name=NetLCD1_17
+Change Net Name : Old Net Name=NetLCD?_19 New Net Name=NetLCD1_19
+Change Net Name : Old Net Name=NetLCD?_20 New Net Name=NetLCD1_20

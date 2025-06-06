@@ -1,0 +1,37 @@
+{
+  "folders": [
+    {
+      "path": "use.main"
+    },
+    {
+      "path": "file:///c%3A/Users/Admin/Desktop/workspace_use/exemple/sinv_F28P55x"
+    }
+  ],
+  "settings": {
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "off",
+    "[jsonc]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "files.associations": {
+      "*.gel": "c",
+      "*.cmd": "c",
+      "*.cla": "c",
+      "*.syscfg": "javascript"
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "use.main",
+        "type": "ccs-debug",
+        "request": "launch",
+        "projectInfo": {
+          "name": "use.main",
+          "resourceId": "/use.main"
+        }
+      }
+    ]
+  }
+}

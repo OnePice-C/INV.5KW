@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetR104_2 Pin=U5-5
+Removed Pin From Net: NetName=NetR103_1 Pin=U5-6
+Removed Pin From Net: NetName=NetR103_1 Pin=U5-7
+Removed Pin From Net: NetName=NetR116_2 Pin=U5-12
+Removed Pin From Net: NetName=NetR114_1 Pin=U5-13
+Removed Pin From Net: NetName=NetR114_1 Pin=U5-14
+Added Pin To Net: NetName=NetR116_2 Pin=U5-5
+Added Pin To Net: NetName=NetR114_1 Pin=U5-6
+Added Pin To Net: NetName=NetR114_1 Pin=U5-7
+Added Pin To Net: NetName=NetR104_2 Pin=U5-12
+Added Pin To Net: NetName=NetR103_1 Pin=U5-13
+Added Pin To Net: NetName=NetR103_1 Pin=U5-14
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C12 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C14 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C16 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C18 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C81 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C82 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C84 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C90 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R101 10R/1206
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R102 220R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R103 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R104 1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R106 220R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R108 1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R110 430R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R112 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R113 499R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R114 10R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R116 10R/0603

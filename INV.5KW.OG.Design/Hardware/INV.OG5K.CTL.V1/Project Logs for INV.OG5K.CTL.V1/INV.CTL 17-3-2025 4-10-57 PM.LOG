@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=J2 Old Footprint=Header 2x15 New Footprint=Header 2x15 V2
+Change Component Footprint: Designator=J1 Old Footprint=Header 2x50 New Footprint=Header 2x50 V2
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C10 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C12 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C28 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C30 104/0603

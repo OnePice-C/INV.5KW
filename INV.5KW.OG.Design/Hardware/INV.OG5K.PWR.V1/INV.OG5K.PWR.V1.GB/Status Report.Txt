@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Free Documents]
+   Generated File[INV.OG5K.PW.V1-RoundHoles.TXT]
+   Generated File[INV.OG5K.PW.V1-SlotHoles.TXT]
+   Generated File[INV.OG5K.PW.V1-RectHoles.TXT]
+   Generated File[INV.OG5K.PW.V1.LDP]
+   Generated File[INV.OG5K.PW.V1.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 5:47:17 PM On 7/4/2025

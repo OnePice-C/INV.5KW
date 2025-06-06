@@ -1,0 +1,14 @@
+Added Component: Designator=U1(SENSOR-STK-PL)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Loc 220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR4_2 Pin=U1-1
+Added Pin To Net: NetName=NetR2_2 Pin=U1-2
+Added Pin To Net: NetName=+5V Pin=U1-3
+Added Pin To Net: NetName=+5V Pin=U1-4
+Added Pin To Net: NetName=NetK1_1 Pin=U1-5
+Added Pin To Net: NetName=NetK1_1 Pin=U1-6
+Added Pin To Net: NetName=NetK1_1 Pin=U1-7
+Added Pin To Net: NetName=NetC10_1 Pin=U1-8
+Added Pin To Net: NetName=NetC10_1 Pin=U1-9
+Added Pin To Net: NetName=NetC10_1 Pin=U1-10
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component U1 PVSS STK-PL

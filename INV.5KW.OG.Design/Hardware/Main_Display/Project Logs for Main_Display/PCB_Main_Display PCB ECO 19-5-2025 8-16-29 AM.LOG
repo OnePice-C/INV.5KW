@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=VCC_5V Pin=CE1-1
+Change Component Footprint: Designator=CE1 Old Footprint=CAP-ALU-SMD-4 New Footprint=CAP-DIP-8x16mm
+Change Component Comment : Designator=CE1 Old Comment=100uF/16V New Comment=330uF/35V
+Change component parameters: Designator = "CE1" ("CE1"); Footprint = "CAP-ALU-SMD-4"; UniqueID = "\VVSDLFEI" ("\VVSDLFEI")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "104"; VariantName = "[No Variations]"
+Added Component: Designator=CE2(CAP-DIP-8x16mm)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "104"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VIN Pin=CE1-1
+Added Pin To Net: NetName=VCC_5V Pin=CE2-1
+Added Pin To Net: NetName=GND Pin=CE2-2
+Added Pin To Net: NetName=CANH Pin=HD1-1
+Added Pin To Net: NetName=CANL Pin=HD1-3
+Added Pin To Net: NetName=RS485_B2 Pin=HD1-5
+Added Pin To Net: NetName=RS485_A2 Pin=HD1-7
+Added Pin To Net: NetName=NetC9_1 Pin=SW1-1
+Added Pin To Net: NetName=NetC9_1 Pin=SW1-1
+Added Pin To Net: NetName=NetR30_1 Pin=SW1-2
+Added Pin To Net: NetName=NetR30_1 Pin=SW1-2
+Added Pin To Net: NetName=NetR32_1 Pin=SW2-2
+Added Pin To Net: NetName=NetR32_1 Pin=SW2-2
+Added Pin To Net: NetName=NetC15_1 Pin=SW3-1
+Added Pin To Net: NetName=NetC15_1 Pin=SW3-1
+Added Pin To Net: NetName=NetR42_1 Pin=SW3-2
+Added Pin To Net: NetName=NetR42_1 Pin=SW3-2
+Added Pin To Net: NetName=NetR44_1 Pin=SW4-2
+Added Pin To Net: NetName=NetR44_1 Pin=SW4-2
+Added Member To Class: ClassName=SCH_SOURCE Member=Component CE2 330uF/35V

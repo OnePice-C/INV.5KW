@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: INV.CTL.V1.PcbDoc   23/3/2025  8:42:32 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : INV.CTL.V1-RoundHoles.TXT
+ASCII SlotHoles File : INV.CTL.V1-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             605       PTH        890.14mm (35.05inch)
+T2      0.3mm (12mil)                                             Round             740       PTH        4294.10mm (169.06inch)
+T3      0.5mm (20mil)                                             Round             1585      PTH        7647.14mm (301.07inch)
+T4      1.02mm (40mil)                                            Round             30        PTH        414.57mm (16.32inch)
+T5      1.07mm (42mil)                                            Round             470       PTH        2522.82mm (99.32inch)
+T6      4.1mm (161mil)                                            Slot              4         PTH        1400.60mm (55.14inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              3434
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=PE PV Pin=C86-1
+Removed Pin From Net: NetName=NetC86_2 Pin=C86-2
+Removed Pin From Net: NetName=PE PV Pin=C91-1
+Removed Pin From Net: NetName=NEG Pin=C91-2
+Added Pin To Net: NetName=NEG Pin=C86-1
+Added Pin To Net: NetName=PE PV Pin=C86-2
+Added Pin To Net: NetName=NetC86_2 Pin=C91-1
+Added Pin To Net: NetName=PE PV Pin=C91-2
+Change Net Name : Old Net Name=NetC86_2 New Net Name=NetC89_2

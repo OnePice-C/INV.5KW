@@ -1,0 +1,98 @@
+Added Component: Designator=D?(SOT23-132)
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_description"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_keywords"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Dual_Diode_CA"; VariantName = "[No Variations]"
+Added Component: Designator=D?(SOT23-132)
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_description"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_keywords"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Dual_Diode_CA"; VariantName = "[No Variations]"
+Added Component: Designator=D?(SOT23-132)
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_description"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ki_keywords"; Value = "Dual Diode Common Anode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reference"; Value = "D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Dual_Diode_CA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=+3.3V Pin=D?-2
+Added Pin To Net: NetName=+3.3V Pin=D?-2
+Added Pin To Net: NetName=+3.3V Pin=D?-2
+Added Pin To Net: NetName=NetC53_1 Pin=D?-3
+Added Pin To Net: NetName=NetC89_2 Pin=D?-3
+Added Pin To Net: NetName=NetC90_1 Pin=D?-3
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C11 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C20 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C25 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C26 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C29 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C30 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C33 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C34 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C37 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C38 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C41 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C42 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C43 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C46 0805
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C52 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C53 0805
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C55 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C57 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C59 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C61 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C62 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C67 104/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C71 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C83 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C89 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C91 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C93 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C94 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C95 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C96 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C97 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component C98 0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D17 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D19 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D21 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D22 Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D? Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D? Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component D? Dual-Diode_CA_1
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R41 10K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R47 10R/1206
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R53 10R/1206
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R55 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R59 10K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R65 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R68 33K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R69 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R71 1.2K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R72 100K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R73 10R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R77 100K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R79 33K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R80 2.7K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R83 120R
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R85 30K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R87 1K/0805
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R89 10K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R91 10K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R93 10K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R95 1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R100 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R108 100K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R109 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R110 499R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R112 10R/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R113 5.1K/0603
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component U4 TL084
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component U7 TL084

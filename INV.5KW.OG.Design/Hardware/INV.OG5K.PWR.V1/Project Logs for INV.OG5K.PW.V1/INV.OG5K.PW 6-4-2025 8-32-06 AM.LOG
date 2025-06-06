@@ -1,0 +1,17 @@
+Change Component Description : Designator=U9 Old Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC New Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC | ON Semiconductor TL431BIDR2G
+Added Component: Designator=D9(SMB)
+Add component (AddParameter): Name = "Value"; Value = "1N4007"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBT1_1 Pin=D9-2
+Added Pin To Net: NetName=NetH8_27 Pin=H8-25
+Added Pin To Net: NetName=NetH8_26 Pin=H8-28
+Change Net Name : Old Net Name=NetH8_26 New Net Name=NetH8_28
+Change Net Name : Old Net Name=NetH8_27 New Net Name=NetH8_25
+Added Pin To Net: NetName=NetH8_26 Pin=H8-26
+Added Pin To Net: NetName=NetH8_26 Pin=R39-2
+Added Pin To Net: NetName=NetH8_26 Pin=R44-1
+Added Net: Name=NetH8_26
+Added Pin To Net: NetName=NetH8_27 Pin=H8-27
+Added Pin To Net: NetName=NetH8_27 Pin=R47-2
+Added Pin To Net: NetName=NetH8_27 Pin=R48-1
+Added Net: Name=NetH8_27
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component D9 EFMB208

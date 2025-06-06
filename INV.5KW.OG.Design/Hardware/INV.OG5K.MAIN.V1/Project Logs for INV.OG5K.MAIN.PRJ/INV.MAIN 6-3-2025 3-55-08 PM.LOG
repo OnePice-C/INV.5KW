@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=R98 Old Footprint=R1206 New Footprint=RES-SMD-1206 EX
+Change Component Footprint: Designator=R102 Old Footprint=R1206 New Footprint=RES-SMD-1206 EX
+Added Member To Class: ClassName=INV.Main.SCH Member=Component PE3 PE

@@ -1,0 +1,26 @@
+Change Component Description : Designator=U9 Old Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC New Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC | ON Semiconductor TL431BIDR2G
+Added Component: Designator=L5(IND-SMD_L10.2-W10.0_MS104R)
+Add component (AddParameter): Name = "Value"; Value = "150 mH"; VariantName = "[No Variations]"
+Added Component: Designator=R143(RES-SMD-0603 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R146(RES-SMD-0603 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R147(RES-SMD-0603 EX)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=G_2 Pin=L5-2
+Added Pin To Net: NetName=NetH8_21 Pin=R143-2
+Added Pin To Net: NetName=NetH8_29 Pin=R146-2
+Added Pin To Net: NetName=NetH8_30 Pin=R147-1
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component L5 220uH
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R143
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R146
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component R147

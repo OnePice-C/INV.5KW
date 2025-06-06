@@ -1,0 +1,15 @@
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=NetR30_1 Pin=SW1-2
+Added Pin To Net: NetName=NetR30_1 Pin=SW1-2
+Added Pin To Net: NetName=NetR32_1 Pin=SW2-2
+Added Pin To Net: NetName=NetR32_1 Pin=SW2-2
+Added Pin To Net: NetName=NetR42_1 Pin=SW3-2
+Added Pin To Net: NetName=NetR42_1 Pin=SW3-2
+Added Pin To Net: NetName=GND Pin=SW4-1
+Added Pin To Net: NetName=GND Pin=SW4-1
+Added Pin To Net: NetName=NetR44_1 Pin=SW4-2
+Added Pin To Net: NetName=NetR44_1 Pin=SW4-2
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via

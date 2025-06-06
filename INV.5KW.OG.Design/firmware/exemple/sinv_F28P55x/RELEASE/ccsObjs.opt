@@ -1,0 +1,15 @@
+"./stringINV.obj"
+"./syscfg/board.obj"
+"./syscfg/device.obj"
+"./syscfg/device_cmd.obj"
+"./syscfg/c2000ware_libraries.obj"
+"./f28p55x_codestartbranch.obj"
+"./stringINV_main.obj"
+"./libraries/DCL/DCL_DF22_C1.obj"
+"./libraries/sfra/sfra_gui_scicomms_driverlib.obj"
+-l"syscfg/device_cmd.cmd"
+-lsfra_f32_tmu_eabi.lib
+-lrts2800_fpu32_fast_supplement_eabi.lib
+-lc2000ware_libraries.cmd.genlibs
+-ldriverlib.lib
+-llibc.a

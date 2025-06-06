@@ -1,0 +1,6 @@
+Layer Pairs Export File for PCB: D:\DTKH.INV.13.OFG\INV.5KW.OG.Design\Hardware\INV.OG5K.MAIN.V1\INV.MAIN.PCB1.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=inv.main.pcb1-roundholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Plated_Square_Holes|DrillFile=INV.MAIN.PCB1-SquareHoles-Plated.TXT|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=inv.main.pcb1-slotholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Plated_Rect_Holes|DrillFile=inv.main.pcb1-rectholes-plated.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_NonPlated_Slot_Holes|DrillFile=inv.main.pcb1-slotholes-nonplated.txt|DrillLayers=gtl,g1,g2,gbl

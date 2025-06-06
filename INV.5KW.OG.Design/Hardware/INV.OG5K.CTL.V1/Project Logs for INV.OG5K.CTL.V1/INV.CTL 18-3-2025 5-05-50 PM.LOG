@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetR24_5 Pin=R32-1
+Removed Pin From Net: NetName=NetR24_6 Pin=R32-2
+Removed Pin From Net: NetName=NetR24_7 Pin=R32-3
+Removed Pin From Net: NetName=NetR24_8 Pin=R32-4
+Removed Pin From Net: NetName=GND Pin=R32-5
+Removed Pin From Net: NetName=GND Pin=R32-6
+Removed Pin From Net: NetName=GND Pin=R32-7
+Removed Pin From Net: NetName=GND Pin=R32-8
+Added Pin To Net: NetName=GND Pin=R32-1
+Added Pin To Net: NetName=GND Pin=R32-2
+Added Pin To Net: NetName=GND Pin=R32-3
+Added Pin To Net: NetName=GND Pin=R32-4
+Added Pin To Net: NetName=NetR24_5 Pin=R32-5
+Added Pin To Net: NetName=NetR24_6 Pin=R32-6
+Added Pin To Net: NetName=NetR24_7 Pin=R32-7
+Added Pin To Net: NetName=NetR24_8 Pin=R32-8

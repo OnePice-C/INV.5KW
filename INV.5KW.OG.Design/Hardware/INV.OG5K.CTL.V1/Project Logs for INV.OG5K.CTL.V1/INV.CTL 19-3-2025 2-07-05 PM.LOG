@@ -1,0 +1,11 @@
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C15
+Change Component Designator: OldDesignator=C14 NewDesignator=C16
+Change Component Designator: OldDesignator=C15 NewDesignator=C17
+Change Component Designator: OldDesignator=C16 NewDesignator=C18
+Change Component Designator: OldDesignator=C17 NewDesignator=C11
+Change Component Designator: OldDesignator=C18 NewDesignator=C12
+Added Pin To Net: NetName=NetC68_2 Pin=U7-9
+Added Pin To Net: NetName=NetC72_2 Pin=U7-10
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component U7 TL084

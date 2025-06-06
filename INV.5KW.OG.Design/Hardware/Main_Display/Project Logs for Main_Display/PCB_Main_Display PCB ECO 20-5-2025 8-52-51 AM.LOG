@@ -1,0 +1,5 @@
+Added Component: Designator=C44(CAP-SMD-0603)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C44-1
+Added Pin To Net: NetName=VDD_3.3V Pin=C44-2
+Added Member To Class: ClassName=SCH_SOURCE Member=Component C44 0603/100nF

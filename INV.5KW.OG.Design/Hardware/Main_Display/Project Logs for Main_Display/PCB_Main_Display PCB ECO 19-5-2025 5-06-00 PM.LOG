@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=BUTTON1 Pin=U1-81
+Removed Pin From Net: NetName=BUTTON2 Pin=U1-82
+Removed Pin From Net: NetName=BUTTON3 Pin=U1-83
+Removed Pin From Net: NetName=BUTTON4 Pin=U1-84
+Added Pin To Net: NetName=BUTTON1 Pin=U1-89
+Added Pin To Net: NetName=BUTTON2 Pin=U1-90
+Added Pin To Net: NetName=BUTTON3 Pin=U1-91
+Added Pin To Net: NetName=BUTTON4 Pin=U1-92

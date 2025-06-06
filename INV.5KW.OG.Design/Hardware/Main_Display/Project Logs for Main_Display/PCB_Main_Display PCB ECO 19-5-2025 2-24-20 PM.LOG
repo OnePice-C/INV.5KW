@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=IC1 Old Footprint=DIP8 New Footprint=SO8
+Change Component Footprint: Designator=IC2 Old Footprint=DIP8 New Footprint=SO8
+Change Component Footprint: Designator=U2 Old Footprint=SOIC-8 New Footprint=SO8
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via

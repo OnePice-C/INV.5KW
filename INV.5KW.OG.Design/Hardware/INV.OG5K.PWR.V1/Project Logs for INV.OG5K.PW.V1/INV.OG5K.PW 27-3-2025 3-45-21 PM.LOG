@@ -1,0 +1,20 @@
+Added Component: Designator=C40(CAP-TH_BD13.0-P5.00-D0.6-FD)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH004510"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Hóa 220uF 10V 6x11MM"; VariantName = "[No Variations]"
+Added Component: Designator=C42(CAP-TH_BD13.0-P5.00-D0.6-FD)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH004510"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? Hóa 220uF 10V 6x11MM"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=C40-1
+Added Pin To Net: NetName=GND_FB Pin=C40-2
+Added Pin To Net: NetName=+10V Pin=C42-1
+Added Pin To Net: NetName=GND_FB Pin=C42-2
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component C40 2200uF/10V
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component C42 2200uF/10V

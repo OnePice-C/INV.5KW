@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: INV.MAIN.PCB1.PcbDoc   22/3/2025  6:14:57 PM
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : INV.MAIN.PCB1-RoundHoles-Plated.TXT
+ASCII Plated SquareHoles File : INV.MAIN.PCB1-SquareHoles-Plated.TXT
+ASCII Plated SlotHoles File : INV.MAIN.PCB1-SlotHoles-Plated.TXT
+ASCII Non-Plated SlotHoles File : INV.MAIN.PCB1-SlotHoles-NonPlated.TXT
+ASCII Plated RectHoles File : INV.MAIN.PCB1-RectHoles-Plated.TXT
+EIA File   : INV.MAIN.PCB1.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel             Hole Length           Drill Type  Via Type
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             217       PTH        3070.40mm (120.88inch)  -                       Regular
+T2      0.5mm (20mil)                                             Round             177       PTH        2557.44mm (100.69inch)  -                       Regular
+T3      0.7mm (28mil)                                             Round             139       PTH        1837.04mm (72.32inch)   -                       Regular
+T4      0.8mm (31mil)                                             Round             725       PTH        3407.40mm (134.15inch)  -                       Regular
+T5      0.813mm (32mil)                                           Round             8         PTH        190.50mm (7.50inch)     -                       Regular
+T6      0.864mm (34mil)                                           Round             2         PTH        2.54mm (0.10inch)       -                       Regular
+T7      1mm (39mil)                                               Round             21        PTH        584.43mm (23.01inch)    -                       Regular
+T8      1mm (39mil)                                               Rectangle         3         PTH        476.11mm (18.74inch)    1.2mm (47mil)           Regular
+T9      1.02mm (40mil)                                            Round             4         PTH        290.69mm (11.44inch)    -                       Regular
+T10     1.07mm (42mil)                                            Round             110       PTH        418.48mm (16.48inch)    -                       Regular
+T11     1.2mm (47mil)                                             Round             5         PTH        212.67mm (8.37inch)     -                       Regular
+T12     1.2mm (47mil)                                             Square            5         PTH        214.54mm (8.45inch)     1.2mm (47mil)           Regular
+T13     1.295mm (51mil)                                           Round             16        PTH        214.34mm (8.44inch)     -                       Regular
+T14     1.3mm (51mil)                                             Round             22        PTH        293.10mm (11.54inch)    -                       Regular
+T15     1.5mm (59mil)                                             Round             3         PTH        63.98mm (2.52inch)      -                       Regular
+T16     1.5mm (59mil)                                             Square            1         PTH        0.00mm (0.00inch)       1.5mm (59mil)           Regular
+T17     1.76mm (69mil)                                            Round             38        PTH        1734.60mm (68.29inch)   -                       Regular
+T18     1.76mm (69mil)                                            Square            19        PTH        1652.57mm (65.06inch)   1.76mm (69mil)          Regular
+T19     2.5mm (98mil)                                             Round             8         PTH        141.07mm (5.55inch)     -                       Regular
+T20     3mm (118mil)                                              Round             6         PTH        176.38mm (6.94inch)     -                       Regular
+T21     3mm (118mil)            +5.5mm (217mil)/-3mm (118mil)     Slot              1         PTH        2.50mm (0.10inch)       5.5mm (217mil)          Regular
+T22     3mm (118mil)                                              Slot              3         PTH        96.36mm (3.79inch)      5.5mm (217mil)          Regular
+T23     3mm (118mil)                                              Slot              2         PTH        70.01mm (2.76inch)      4mm (157mil)            Regular
+T24     3.95mm (156mil)                                           Round             4         PTH        424.06mm (16.70inch)    -                       Regular
+T25     4mm (157mil)                                              Round             5         PTH        167.31mm (6.59inch)     -                       Regular
+T26     5mm (197mil)                                              Round             2         PTH        12.00mm (0.47inch)      -                       Regular
+T27     8mm (315mil)                                              Round             2         PTH        33.53mm (1.32inch)      -                       Regular
+T28     10mm (394mil)                                             Round             2         PTH        19.00mm (0.75inch)      -                       Regular
+T29     2.5mm (98mil)           +/-0mm (0mil)                     Slot              2         NPTH       78.50mm (3.09inch)      8mm (315mil)            Regular
+T30     2.5mm (98mil)           +/-0mm (0mil)                     Slot              2         NPTH       80.00mm (3.15inch)      12.5mm (492mil)         Regular
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1554
+
+Two holes at same point : 1
+-----------------------
+11576,12366
+
+Total Processing Time (hh:mm:ss) : 00:00:00

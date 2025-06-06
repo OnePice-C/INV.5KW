@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVariant value="50:Theia-based"/>
+	<ccsVersion value="70.1.1"/>
+	<deviceFamily value="C2000"/>
+	<executableActions value=""/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=sinv_f28p55x_nonpowerSUITE.projectspec.sinv_F28P55x"/>
+	<origin value="/mnt/tirex-content/C2000Ware_DigitalPower_SDK_5_05_01_00/solutions/tida_010938/f28p55x/ccs/sinv_f28p55x_nonpowerSUITE.projectspec"/>
+	<filesToOpen value=""/>
+</projectOptions>

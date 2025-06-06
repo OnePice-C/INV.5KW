@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=RS485_B1 Pin=HD1-1
+Removed Pin From Net: NetName=RS485_A1 Pin=HD1-3
+Removed Pin From Net: NetName=RS485_B2 Pin=HD1-5
+Removed Pin From Net: NetName=RS485_A2 Pin=HD1-7
+Removed Pin From Net: NetName=GND Pin=HD1-9
+Added Pin To Net: NetName=GND Pin=HD1-1
+Added Pin To Net: NetName=RS485_B2 Pin=HD1-3
+Added Pin To Net: NetName=RS485_A2 Pin=HD1-5
+Added Pin To Net: NetName=RS485_A1 Pin=HD1-7
+Added Pin To Net: NetName=RS485_B1 Pin=HD1-9
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via

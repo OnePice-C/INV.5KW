@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetK1_4 Pin=L3-2
+Removed Pin From Net: NetName=NetC16_2 Pin=L4-2
+Removed Member From Class: ClassName=INV.OG5K.PW.V1 Member=L9
+Change Component Designator: OldDesignator=C35 NewDesignator=C37
+Change Component Designator: OldDesignator=C36 NewDesignator=C35
+Change Component Designator: OldDesignator=C37 NewDesignator=C36
+Change Component Designator: OldDesignator=L2 NewDesignator=L3
+Change Component Designator: OldDesignator=L5 NewDesignator=L4
+Change Component Designator: OldDesignator=L6 NewDesignator=L5
+Change Component Designator: OldDesignator=L7 NewDesignator=L6
+Change Component Designator: OldDesignator=L8 NewDesignator=L7
+Change Component Designator: OldDesignator=L9 NewDesignator=L8
+Added Component: Designator=L2(LAC2OG5K-V1)
+Add component (AddParameter): Name = "Designed by"; Value = "VanDungEvn"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Loc 220"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_2 Pin=L2-3
+Added Pin To Net: NetName=NetK1_4 Pin=L2-4
+Added Pin To Net: NetName=NetL2_1 Pin=L2-1
+Added Pin To Net: NetName=NetL2_1 Pin=P2-1
+Added Pin To Net: NetName=NetL2_1 Pin=P2-1
+Added Pin To Net: NetName=NetL2_1 Pin=P2-1
+Added Pin To Net: NetName=NetL2_1 Pin=P2-1
+Added Pin To Net: NetName=NetL2_1 Pin=P2-1
+Added Net: Name=NetL2_1
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Added Pin To Net: NetName=NetL2_2 Pin=P4-1
+Added Pin To Net: NetName=NetL2_2 Pin=P4-1
+Added Pin To Net: NetName=NetL2_2 Pin=P4-1
+Added Pin To Net: NetName=NetL2_2 Pin=P4-1
+Added Pin To Net: NetName=NetL2_2 Pin=P4-1
+Added Net: Name=NetL2_2

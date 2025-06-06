@@ -1,0 +1,11 @@
+Added Component: Designator=P?(COPER)
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Pin To Net: NetName=PE PV Pin=P?-1
+Added Member To Class: ClassName=INV.OG5K.PW.V1 Member=Component P? PE

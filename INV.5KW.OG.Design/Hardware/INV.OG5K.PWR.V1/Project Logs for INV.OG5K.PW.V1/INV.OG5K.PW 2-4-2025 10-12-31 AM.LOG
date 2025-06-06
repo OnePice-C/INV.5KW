@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetC19_1 Pin=D11-1
+Removed Pin From Net: NetName=NetC19_1 Pin=D11-1
+Removed Pin From Net: NetName=NetC32_1 Pin=D11-2
+Change Component Description : Designator=U9 Old Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC New Description=TL431BIDR2G, Adjustable Shunt Voltage Reference 2.5 - 36V, 0.4%, 8-Pin SOIC | ON Semiconductor TL431BIDR2G
+Added Pin To Net: NetName=NetC32_1 Pin=D11-1
+Added Pin To Net: NetName=NetC32_1 Pin=D11-1
+Added Pin To Net: NetName=NetC19_1 Pin=D11-2

@@ -1,0 +1,32 @@
+Added Component: Designator=R25(RESCAXS80P320X150X55-8N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Vishay Beyschlag'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ACASA1002S1002P1AT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R33(RESCAXS80P320X150X55-8N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Vishay Beyschlag'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ACASA1002S1002P1AT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetR25_2 Pin=R25-2
+Added Pin To Net: NetName=NetR25_3 Pin=R25-3
+Added Pin To Net: NetName=NetR25_4 Pin=R25-4
+Added Pin To Net: NetName=NetR25_5 Pin=R25-5
+Added Pin To Net: NetName=NetR25_6 Pin=R25-6
+Added Pin To Net: NetName=NetR25_7 Pin=R25-7
+Added Pin To Net: NetName=NetR25_8 Pin=R25-8
+Added Pin To Net: NetName=NetR25_5 Pin=R33-1
+Added Pin To Net: NetName=NetR25_6 Pin=R33-2
+Added Pin To Net: NetName=NetR25_7 Pin=R33-3
+Added Pin To Net: NetName=NetR25_8 Pin=R33-4
+Added Pin To Net: NetName=GND Pin=R33-5
+Added Pin To Net: NetName=GND Pin=R33-6
+Added Pin To Net: NetName=GND Pin=R33-7
+Added Pin To Net: NetName=GND Pin=R33-8
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R25 10R/1206
+Added Member To Class: ClassName=INV.CTL.V1 Member=Component R33 5.1K/1206

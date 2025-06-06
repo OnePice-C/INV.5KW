@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C21 Old Footprint=CAP-SMD-0805 New Footprint=CAP-SMD-0603
+Change Component Comment : Designator=C21 Old Comment=0805/10uF New Comment=0603/100nF
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
+Added Member To Class: ClassName=SCH_MCU Member=Component via? via
