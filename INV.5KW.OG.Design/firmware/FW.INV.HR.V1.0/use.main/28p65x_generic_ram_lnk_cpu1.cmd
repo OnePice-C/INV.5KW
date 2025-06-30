@@ -64,7 +64,7 @@ SECTIONS
    .switch          : > RAMM0
    .reset           : > RESET, TYPE = DSECT /* not used, */
    
-   .stack           : > RAMM1
+   .stack           : > RAMD1
 #if defined(__TI_EABI__)
    .bss             : > RAMLS5
    .bss:output      : > RAMLS3
@@ -95,7 +95,8 @@ SECTIONS
    Filter4_RegsFile : > RAMGS4, fill=0x4444
 
     .TI.ramfunc : {} > RAMM0
-
+   dclfuncs : > RAMM0
+   FPUmathTables : > RAMD2
 }
 
 /*

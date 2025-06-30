@@ -113,7 +113,7 @@ extern "C"
 #define SOC0_FORCE ADC_FORCE_SOC0
 #define SOC0_ADC_BASE ADCB_BASE
 #define SOC0_RESULT_BASE ADCBRESULT_BASE
-#define SOC0_SAMPLE_WINDOW 500
+#define SOC0_SAMPLE_WINDOW 2000
 #define SOC0_TRIGGER_SOURCE ADC_TRIGGER_EPWM1_SOCA
 #define SOC0_CHANNEL ADC_CH_ADCIN2
 void myADC0_init();
@@ -124,7 +124,7 @@ void myADC0_init();
 #define SOC1_FORCE ADC_FORCE_SOC1
 #define SOC1_ADC_BASE ADCC_BASE
 #define SOC1_RESULT_BASE ADCCRESULT_BASE
-#define SOC1_SAMPLE_WINDOW 320
+#define SOC1_SAMPLE_WINDOW 1000
 #define SOC1_TRIGGER_SOURCE ADC_TRIGGER_EPWM1_SOCA
 #define SOC1_CHANNEL ADC_CH_ADCIN3
 void ADC_Current_init();
@@ -135,6 +135,16 @@ void ADC_Current_init();
 // ASYSCTL Configurations
 //
 //*****************************************************************************
+
+//*****************************************************************************
+//
+// CMPSS Configurations
+//
+//*****************************************************************************
+#define myCMPSS_iAC_vAC_BASE CMPSS3_BASE
+#define myCMPSS_iAC_vAC_HIGH_COMP_BASE CMPSS3_BASE    
+#define myCMPSS_iAC_vAC_LOW_COMP_BASE CMPSS3_BASE    
+void myCMPSS_iAC_vAC_init();
 
 //*****************************************************************************
 //
@@ -167,6 +177,15 @@ void ADC_Current_init();
 #define myEPWM2_TZA_ACTION EPWM_TZ_ACTION_HIGH_Z
 #define myEPWM2_TZB_ACTION EPWM_TZ_ACTION_HIGH_Z
 #define myEPWM2_INTERRUPT_SOURCE EPWM_INT_TBCTR_DISABLED
+
+//*****************************************************************************
+//
+// EPWMXBAR Configurations
+//
+//*****************************************************************************
+void myEPWMXBAR0_init();
+#define myEPWMXBAR0 XBAR_TRIP1
+#define myEPWMXBAR0_ENABLED_MUXES (XBAR_MUX04)
 
 //*****************************************************************************
 //
@@ -204,7 +223,9 @@ extern __interrupt void INT_myADC0_1_ISR(void);
 void	Board_init();
 void	ADC_init();
 void	ASYSCTL_init();
+void	CMPSS_init();
 void	EPWM_init();
+void	EPWMXBAR_init();
 void	GPIO_init();
 void	INTERRUPT_init();
 void	SYNC_init();

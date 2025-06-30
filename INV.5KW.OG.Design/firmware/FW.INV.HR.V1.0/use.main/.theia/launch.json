@@ -9,22 +9,19 @@
                 "name": "use.main",
                 "resourceId": "/use.main"
             },
-            "debuggerSettings": {
-                "targetConfigs/TMS320F28P650SH6.ccxml": {
-                    "Texas Instruments XDS110 USB Debug Probe/C28xx_CPU1": {
-                        "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
-                    }
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "C28xx_CPU1",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues>\n\n  <property id=\"Z1LINKPOINTER1\">\n    <curValue>00003FFF</curValue>\n  </property>\n\n  <property id=\"Z1LINKPOINTER2\">\n    <curValue>00003FFF</curValue>\n  </property>\n\n  <property id=\"Z1LINKPOINTER3\">\n    <curValue>00003FFF</curValue>\n  </property>\n\n  <property id=\"Z2LINKPOINTER1\">\n    <curValue>00003FFF</curValue>\n  </property>\n\n  <property id=\"Z2LINKPOINTER2\">\n    <curValue>00003FFF</curValue>\n  </property>\n\n  <property id=\"Z2LINKPOINTER3\">\n    <curValue>00003FFF</curValue>\n  </property>\n\n  <property id=\"Z1JTAGLOCK\">\n    <curValue>0000000F</curValue>\n  </property>\n\n  <property id=\"Z1GPREG1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GPREG2\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GPREG3\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GPREG4\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GPREG1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GPREG2\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GPREG3\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GPREG4\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1PSWDLOCK\">\n    <curValue>FB7FFFFF</curValue>\n  </property>\n\n  <property id=\"Z1CRCLOCK\">\n    <curValue>7FFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2PSWDLOCK\">\n    <curValue>1F7FFFFF</curValue>\n  </property>\n\n  <property id=\"Z2CRCLOCK\">\n    <curValue>3FFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1CSMPSWD1\">\n    <curValue>4D7FFFFF</curValue>\n  </property>\n\n  <property id=\"Z2CSMPSWD1\">\n    <curValue>1F7FFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GRABSECT1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GRABSECT2\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GRABSECT3\">\n    <curValue>0000FFFF</curValue>\n  </property>\n\n  <property id=\"Z1GRABRAM1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1GRABRAM2\">\n    <curValue>000000FF</curValue>\n  </property>\n\n  <property id=\"Z1EXEONLYSECT1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z1EXEONLYSECT2\">\n    <curValue>000000FF</curValue>\n  </property>\n\n  <property id=\"Z1EXEONLYRAM1\">\n    <curValue>0000FFFF</curValue>\n  </property>\n\n  <property id=\"Z1-DIAG\">\n    <curValue>00000030</curValue>\n  </property>\n\n  <property id=\"Z2GRABSECT1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GRABSECT2\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GRABSECT3\">\n    <curValue>0000FFFF</curValue>\n  </property>\n\n  <property id=\"Z2GRABRAM1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2GRABRAM2\">\n    <curValue>000000FF</curValue>\n  </property>\n\n  <property id=\"Z2EXEONLYSECT1\">\n    <curValue>FFFFFFFF</curValue>\n  </property>\n\n  <property id=\"Z2EXEONLYSECT2\">\n    <curValue>000000FF</curValue>\n  </property>\n\n  <property id=\"Z2EXEONLYRAM1\">\n    <curValue>0000FFFF</curValue>\n  </property>\n\n  <property id=\"FlashFiles\">\n    <curValue></curValue>\n  </property>\n\n</PropertyValues>\n"
+                            }
+                        }
+                    ]
                 }
-            }
-        },
-        {
-            "name": "sinv_F28P55x",
-            "type": "ccs-debug",
-            "request": "launch",
-            "projectInfo": {
-                "name": "sinv_F28P55x",
-                "resourceId": "/sinv_F28P55x"
-            }
+            ]
         }
     ]
 }

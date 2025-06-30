@@ -1,5 +1,6 @@
 "./syscfg/board.obj"
 "./syscfg/c2000ware_libraries.obj"
+"./controler_CL.obj"
 "./inv_hr_main.obj"
 "./device/device.obj"
 "./device/f28p65x_codestartbranch.obj"

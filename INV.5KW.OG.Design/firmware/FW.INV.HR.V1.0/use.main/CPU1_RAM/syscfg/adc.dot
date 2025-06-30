@@ -140,9 +140,9 @@ digraph {
           
         adcb_ADC_TRIGGER_EPWM1_SOCA[label="ADCB"  fontsize="40" fillcolor="white" color="white" pos="24.000,-21.000!"]
           
-        adcb_ADC_TRIGGER_EPWM1_SOCA_soc0[label="soc0 (S+H[SYSCLK]: 100, Conv[SYSCLK]: 41)" fillcolor="#FFA0A0" width="70.500" pos="62.250,-21.000!"]
+        adcb_ADC_TRIGGER_EPWM1_SOCA_soc0[label="soc0 (S+H[SYSCLK]: 400, Conv[SYSCLK]: 41)" fillcolor="#FFA0A0" width="220.500" pos="137.250,-21.000!"]
           
         adcc_ADC_TRIGGER_EPWM1_SOCA[label="ADCC"  fontsize="40" fillcolor="white" color="white" pos="24.000,-24.000!"]
           
-        adcc_ADC_TRIGGER_EPWM1_SOCA_soc1[label="soc1 (S+H[SYSCLK]: 64, Conv[SYSCLK]: 41)" fillcolor="#A0FFA0" width="52.500" pos="53.250,-24.000!"]
+        adcc_ADC_TRIGGER_EPWM1_SOCA_soc1[label="soc1 (S+H[SYSCLK]: 200, Conv[SYSCLK]: 41)" fillcolor="#A0FFA0" width="120.500" pos="87.250,-24.000!"]
 }

@@ -170,10 +170,10 @@ void myADC0_init(){
 	// 	  	SOC number		: 0
 	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
 	//	  	Channel			: ADC_CH_ADCIN2
-	//	 	Sample Window	: 100 SYSCLK cycles
+	//	 	Sample Window	: 400 SYSCLK cycles
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	//
-	ADC_setupSOC(myADC0_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 100U);
+	ADC_setupSOC(myADC0_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 400U);
 	ADC_setInterruptSOCTrigger(myADC0_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
 	//
 	// ADC Interrupt 1 Configuration

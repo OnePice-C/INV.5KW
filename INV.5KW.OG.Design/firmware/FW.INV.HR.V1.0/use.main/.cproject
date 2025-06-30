@@ -57,6 +57,7 @@
                                     <listOptionValue value="${PROJECT_ROOT}/libraries/sfra"/>
                                     <listOptionValue value="${PROJECT_ROOT}/libraries/power_measurement"/>
                                     <listOptionValue value="${PROJECT_ROOT}/libraries/FPUfastRTS"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/spll"/>
                                     <listOptionValue value="${PROJECT_ROOT}/libraries/DCL"/>
                                     <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/rampgen"/>
                                 </option>
@@ -76,6 +77,7 @@
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.DISPLAY_ERROR_NUMBER.1823607473" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.GEN_FUNC_SUBSECTIONS.1335941243" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.GEN_FUNC_SUBSECTIONS" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.GEN_FUNC_SUBSECTIONS.on" valueType="enumerated"/>
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.ABI.117403692" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.ABI.eabi" valueType="enumerated"/>
+                                <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.418672100" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.relaxed" valueType="enumerated"/>
                             </tool>
                             <tool id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.linkerDebug.2025216959" name="C2000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.linkerDebug">
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.linkerID.STACK_SIZE.1975098899" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.linkerID.STACK_SIZE" value="0x3F8" valueType="string"/>
@@ -116,6 +118,17 @@
                             </tool>
                         </toolChain>
                     </folderInfo>
+                    <fileInfo id="com.ti.ccstudio.buildDefinitions.C2000.Default.1197013415.controler_CL.c" name="controler_CL.c" rcbsApplicability="disable" resourcePath="controler_CL.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1362751063.1482774728">
+                        <tool id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1362751063.1482774728" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1362751063">
+                            <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.1385400920" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.relaxed" valueType="enumerated"/>
+                        </tool>
+                    </fileInfo>
+                    <fileInfo id="com.ti.ccstudio.buildDefinitions.C2000.Default.1197013415.inv_hr_main.c" name="inv_hr_main.c" rcbsApplicability="disable" resourcePath="inv_hr_main.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1362751063.1158606663">
+                        <tool id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1362751063.1158606663" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1362751063">
+                            <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.430799136" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FP_MODE.relaxed" valueType="enumerated"/>
+                            <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FLOAT_SUPPORT.314868058" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FLOAT_SUPPORT" value="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.FLOAT_SUPPORT.fpu64" valueType="enumerated"/>
+                        </tool>
+                    </fileInfo>
                     <sourceEntries>
                         <entry excluding="device/driverlib|28p65x_generic_flash_lnk_cpu1.cmd" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                     </sourceEntries>
@@ -158,7 +171,7 @@
                             </option>
                             <option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.967730445" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="22.6.1.LTS" valueType="string"/>
                             <targetPlatform id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.targetPlatformDebug.232203054" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.targetPlatformDebug"/>
-                            <builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.builderDebug.350358306" name="GNU Make.CPU1_FLASH" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.builderDebug"/>
+                            <builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.builderDebug.350358306" keepEnvironmentInBuildfile="false" name="GNU Make" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.builderDebug"/>
                             <tool id="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug.1698254505" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.exe.compilerDebug">
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.LARGE_MEMORY_MODEL.1277173335" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.LARGE_MEMORY_MODEL" value="true" valueType="boolean"/>
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.UNIFIED_MEMORY.1754854979" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.UNIFIED_MEMORY" value="true" valueType="boolean"/>
@@ -175,6 +188,13 @@
                                     <listOptionValue value="${PROJECT_ROOT}/device"/>
                                     <listOptionValue value="${C2000WARE_DLIB_ROOT}"/>
                                     <listOptionValue value="${CG_TOOL_ROOT}/include"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/power_measurement"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/sfra"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/spll"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/dlog"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/utilities/rampgen"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/DCL"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/FPUfastRTS"/>
                                 </option>
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.DEFINE.1689817465" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.compilerID.DEFINE" valueType="definedSymbols">
                                     <listOptionValue value="${COM_TI_C2000WARE_SYMBOLS}"/>
@@ -202,6 +222,8 @@
                                     <listOptionValue value="${COM_TI_C2000WARE_LIBRARIES}"/>
                                     <listOptionValue value="c2000ware_libraries.cmd.genlibs"/>
                                     <listOptionValue value="libc.a"/>
+                                    <listOptionValue value="rts2800_fpu32_fast_supplement_eabi.lib"/>
+                                    <listOptionValue value="sfra_f32_tmu_eabi.lib"/>
                                 </option>
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.linkerID.SEARCH_PATH.849128603" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.linkerID.SEARCH_PATH" valueType="libPaths">
                                     <listOptionValue value="${COM_TI_C2000WARE_LIBRARY_PATH}"/>
@@ -209,6 +231,8 @@
                                     <listOptionValue value="${C2000WARE_ROOT}"/>
                                     <listOptionValue value="${PROJECT_BUILD_DIR}/syscfg"/>
                                     <listOptionValue value="${CG_TOOL_ROOT}/include"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/FPUfastRTS"/>
+                                    <listOptionValue value="${PROJECT_ROOT}/libraries/sfra"/>
                                 </option>
                                 <option id="com.ti.ccstudio.buildDefinitions.C2000_22.6.linkerID.DEFINE.1070263725" superClass="com.ti.ccstudio.buildDefinitions.C2000_22.6.linkerID.DEFINE" valueType="definedSymbols">
                                     <listOptionValue value="_FLASH"/>

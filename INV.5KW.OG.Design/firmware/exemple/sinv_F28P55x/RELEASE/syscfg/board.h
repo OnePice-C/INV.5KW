@@ -63,20 +63,20 @@ extern "C"
 //
 
 //
-// EPWM4 -> BOOST Pinmux
+// EPWM2 -> BOOST Pinmux
 //
 //
-// EPWM4_A - GPIO Settings
+// EPWM2_A - GPIO Settings
 //
-#define GPIO_PIN_EPWM4_A 6
-#define BOOST_EPWMA_GPIO 6
-#define BOOST_EPWMA_PIN_CONFIG GPIO_6_EPWM4_A
+#define GPIO_PIN_EPWM2_A 2
+#define BOOST_EPWMA_GPIO 2
+#define BOOST_EPWMA_PIN_CONFIG GPIO_2_EPWM2_A
 //
-// EPWM4_B - GPIO Settings
+// EPWM2_B - GPIO Settings
 //
-#define GPIO_PIN_EPWM4_B 23
-#define BOOST_EPWMB_GPIO 23
-#define BOOST_EPWMB_PIN_CONFIG GPIO_23_EPWM4_B
+#define GPIO_PIN_EPWM2_B 3
+#define BOOST_EPWMB_GPIO 3
+#define BOOST_EPWMB_PIN_CONFIG GPIO_3_EPWM2_B
 
 //
 // EPWM1 -> DCAC1 Pinmux
@@ -95,20 +95,20 @@ extern "C"
 #define DCAC1_EPWMB_PIN_CONFIG GPIO_1_EPWM1_B
 
 //
-// EPWM2 -> DCAC2 Pinmux
+// EPWM3 -> DCAC2 Pinmux
 //
 //
-// EPWM2_A - GPIO Settings
+// EPWM3_A - GPIO Settings
 //
-#define GPIO_PIN_EPWM2_A 2
-#define DCAC2_EPWMA_GPIO 2
-#define DCAC2_EPWMA_PIN_CONFIG GPIO_2_EPWM2_A
+#define GPIO_PIN_EPWM3_A 4
+#define DCAC2_EPWMA_GPIO 4
+#define DCAC2_EPWMA_PIN_CONFIG GPIO_4_EPWM3_A
 //
-// EPWM2_B - GPIO Settings
+// EPWM3_B - GPIO Settings
 //
-#define GPIO_PIN_EPWM2_B 3
-#define DCAC2_EPWMB_GPIO 3
-#define DCAC2_EPWMB_PIN_CONFIG GPIO_3_EPWM2_B
+#define GPIO_PIN_EPWM3_B 5
+#define DCAC2_EPWMB_GPIO 5
+#define DCAC2_EPWMB_PIN_CONFIG GPIO_5_EPWM3_B
 
 //
 // EPWM5 -> Bidirectional1 Pinmux
@@ -334,7 +334,7 @@ void myECAP1_init();
 // EPWM Configurations
 //
 //*****************************************************************************
-#define BOOST_BASE EPWM4_BASE
+#define BOOST_BASE EPWM2_BASE
 #define BOOST_TBPRD 560
 #define BOOST_COUNTER_MODE EPWM_COUNTER_MODE_UP_DOWN
 #define BOOST_TBPHS 0
@@ -360,7 +360,7 @@ void myECAP1_init();
 #define DCAC1_TZA_ACTION EPWM_TZ_ACTION_HIGH_Z
 #define DCAC1_TZB_ACTION EPWM_TZ_ACTION_HIGH_Z
 #define DCAC1_INTERRUPT_SOURCE EPWM_INT_TBCTR_DISABLED
-#define DCAC2_BASE EPWM2_BASE
+#define DCAC2_BASE EPWM3_BASE
 #define DCAC2_TBPRD 840
 #define DCAC2_COUNTER_MODE EPWM_COUNTER_MODE_UP_DOWN
 #define DCAC2_TBPHS 0

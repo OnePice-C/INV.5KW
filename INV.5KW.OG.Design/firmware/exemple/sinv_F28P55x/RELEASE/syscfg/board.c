@@ -134,7 +134,7 @@ void PinMux_init()
 	// AGPIO -> Analog mode selected
 	GPIO_setAnalogMode(213, GPIO_ANALOG_ENABLED);
 	//
-	// EPWM4 -> BOOST Pinmux
+	// EPWM2 -> BOOST Pinmux
 	//
 	GPIO_setPinConfig(BOOST_EPWMA_PIN_CONFIG);
 	GPIO_setPadConfig(BOOST_EPWMA_GPIO, GPIO_PIN_TYPE_STD);
@@ -156,7 +156,7 @@ void PinMux_init()
 	GPIO_setQualificationMode(DCAC1_EPWMB_GPIO, GPIO_QUAL_SYNC);
 
 	//
-	// EPWM2 -> DCAC2 Pinmux
+	// EPWM3 -> DCAC2 Pinmux
 	//
 	GPIO_setPinConfig(DCAC2_EPWMA_PIN_CONFIG);
 	GPIO_setPadConfig(DCAC2_EPWMA_GPIO, GPIO_PIN_TYPE_STD);

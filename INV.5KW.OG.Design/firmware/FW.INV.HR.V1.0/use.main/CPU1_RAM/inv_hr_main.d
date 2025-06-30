@@ -129,6 +129,8 @@ inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/includ
 inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/rampgen/Rampgen.h
 inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/dlog/dlog_4ch.h
 inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/power_measurement/power_meas_sine_analyzer.h
+inv_hr_main.obj: ../controler_CL.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/spll/spll_1ph_sogi.h
 
 ../inv_hr_main.c:
 
@@ -387,4 +389,8 @@ D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/
 D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/dlog/dlog_4ch.h:
 
 D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/power_measurement/power_meas_sine_analyzer.h:
+
+../controler_CL.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/spll/spll_1ph_sogi.h:
 

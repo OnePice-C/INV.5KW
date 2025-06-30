@@ -1,9 +1,9 @@
 /**
  * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
  * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
- * @cliArgs --device "F28P55x" --part "F28P55x_128PDT" --package "128PDT" --context "system" --product "C2000WARE@5.04.00.00"
- * @v2CliArgs --device "TMS320F28P550SG" --package "128PDT" --variant "TMS320F28P550SG9" --context "system" --product "C2000WARE@5.04.00.00"
- * @versions {"tool":"1.23.0+4000"}
+ * @cliArgs --device "F28P55x" --part "F28P55x_128PDT" --package "128PDT" --context "system" --product "C2000WARE@5.02.00.00"
+ * @v2CliArgs --device "TMS320F28P550SG" --package "128PDT" --variant "TMS320F28P550SG9" --context "system" --product "C2000WARE@5.02.00.00"
+ * @versions {"tool":"1.21.2+3837"}
  */
 
 /**
@@ -386,8 +386,9 @@ epwm1.$name                                                      = "BOOST";
 epwm1.epwmActionQualifier_EPWM_AQ_OUTPUT_B_ON_TIMEBASE_UP_CMPB   = "EPWM_AQ_OUTPUT_LOW";
 epwm1.epwmActionQualifier_EPWM_AQ_OUTPUT_B_ON_TIMEBASE_DOWN_CMPB = "EPWM_AQ_OUTPUT_HIGH";
 epwm1.epwmTimebase_period                                        = 560;
-epwm1.epwm.$assign                                               = "EPWM4";
-epwm1.epwm.epwm_aPin.$assign                                     = "GPIO6";
+epwm1.epwm.$assign                                               = "EPWM2";
+epwm1.epwm.epwm_aPin.$assign                                     = "GPIO2";
+epwm1.epwm.epwm_bPin.$assign                                     = "GPIO3";
 
 epwm2.copyFrom                                                   = "BOOST1";
 epwm2.epwmTimebase_counterMode                                   = "EPWM_COUNTER_MODE_UP_DOWN";
@@ -405,7 +406,9 @@ epwm2.epwmActionQualifier_EPWM_AQ_OUTPUT_A_onetimeSwForceAction  = "EPWM_AQ_OUTP
 epwm2.epwmTripZone_EPWM_TZ_ACTION_EVENT_DCBEVT1                  = "EPWM_TZ_ACTION_LOW";
 epwm2.$name                                                      = "DCAC1";
 epwm2.epwmTimebase_period                                        = 840;
+epwm2.epwm.$assign                                               = "EPWM1";
 epwm2.epwm.epwm_aPin.$assign                                     = "GPIO0";
+epwm2.epwm.epwm_bPin.$assign                                     = "GPIO1";
 
 epwm3.copyFrom                                                   = "BOOST1";
 epwm3.epwmTimebase_counterMode                                   = "EPWM_COUNTER_MODE_UP_DOWN";
@@ -423,9 +426,9 @@ epwm3.epwmActionQualifier_EPWM_AQ_OUTPUT_A_onetimeSwForceAction  = "EPWM_AQ_OUTP
 epwm3.epwmTripZone_EPWM_TZ_ACTION_EVENT_DCBEVT1                  = "EPWM_TZ_ACTION_LOW";
 epwm3.$name                                                      = "DCAC2";
 epwm3.epwmTimebase_period                                        = 840;
-epwm3.epwm.$assign                                               = "EPWM2";
-epwm3.epwm.epwm_aPin.$assign                                     = "GPIO2";
-epwm3.epwm.epwm_bPin.$assign                                     = "GPIO3";
+epwm3.epwm.$assign                                               = "EPWM3";
+epwm3.epwm.epwm_aPin.$assign                                     = "GPIO4";
+epwm3.epwm.epwm_bPin.$assign                                     = "GPIO5";
 
 epwm4.copyFrom                                                   = "BOOST1";
 epwm4.epwmActionQualifier_EPWM_AQ_OUTPUT_A_ON_TIMEBASE_UP_CMPA   = "EPWM_AQ_OUTPUT_LOW";
@@ -622,6 +625,3 @@ analog1.analog["b4, c8, gpio236Pin"].$suggestSolution               = "B4, C8, G
 analog1.analog["b5, d15, e15, pga3_outPin"].$suggestSolution        = "B5, D15, E15, PGA3_OUT";
 analog1.analog["b26, d7, e7Pin"].$suggestSolution                   = "B26, D7, E7";
 analog1.analog["b27, d10, e10, gpio213Pin"].$suggestSolution        = "B27, D10, E10, GPIO213";
-epwm1.epwm.epwm_bPin.$suggestSolution                               = "GPIO23";
-epwm2.epwm.$suggestSolution                                         = "EPWM1";
-epwm2.epwm.epwm_bPin.$suggestSolution                               = "GPIO1";

@@ -4,7 +4,7 @@
       "path": "use.main"
     },
     {
-      "path": "file:///c%3A/Users/Admin/Desktop/workspace_use/exemple/sinv_F28P55x"
+      "path": "file:///d%3A/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/exemple/sinv_F28P55x"
     }
   ],
   "settings": {
@@ -18,7 +18,9 @@
       "*.cmd": "c",
       "*.cla": "c",
       "*.syscfg": "javascript"
-    }
+    },
+    "CCS.debug.watch.showType": false,
+    "CCS.debug.watch.showAddress": false
   },
   "launch": {
     "version": "0.2.0",

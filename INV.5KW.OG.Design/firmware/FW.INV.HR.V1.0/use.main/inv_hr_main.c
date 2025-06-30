@@ -59,94 +59,23 @@
 #include "dlog_4ch.h"
 #include "power_meas_sine_analyzer.h"
 
-#define AC_FREQ ((float32_t)50)                        // // Unit Hz
-#define ISR_CONTROL_FREQUENCY_AC ((float32_t)30000.00) // synchronize with ISR
+#include "controler_CL.h"
 
-#define DCAC_PWM_PRD 1666
-
-#pragma RETAIN(stringINV_ACDC_rgen)
-#pragma RETAIN(stringINV_ACDC_Index_Modulation)
-RAMPGEN stringINV_ACDC_rgen;
-float32_t stringINV_ACDC_Index_Modulation;
-float32_t stringINV_ACDC_Amplitude;
 
 __interrupt void INT_myADC0_1_ISR(void);
 
-void stringINV_globalVariablesInit(void);
-void stringInverter_runISR1_lab_DCAC_OL(void);
-void stringINV_DCAC_Modulation(void);
-void string_vACVoltageControl(void);
-void stringINV_RAMP_VAC(void);
 
-uint16_t stringINV_clearPWMTripDCAC = 1U;
-uint16_t stringINV_updateDutyDCAC = 0U;
-float32_t zero_sine = 0.0000f;
+#pragma RETAIN(INV_DCAC_rgen)
+#pragma RETAIN(INV_DCAC_Index_Modulation)
+RAMPGEN INV_DCAC_rgen;
+float32_t INV_DCAC_Index_Modulation;
+float32_t INV_DCAC_Amplitude;
 
-volatile uint16_t myADC0Results = 0;
+volatile float32_t INV_DCAC_vAC_Heric_Sensor = 0.0f;
+volatile float32_t INV_DCAC_vAC_Heric_Sensor_1 = 0.0f;
 volatile uint16_t ADC_Current = 0;
 
-
 /*****************************************************************/
-
-#pragma RETAIN(stringINV_ACDC_vAC_sensed_pu)
-float32_t stringINV_ACDC_vAC_sensed_pu;
-
-#pragma RETAIN(stringINV_ACDC_vAC_sensed)
-float32_t stringINV_ACDC_vAC_sensed;
-
-#pragma RETAIN(stringINV_ACDC_vAC_sensed_FILTER)
-float32_t stringINV_ACDC_vAC_sensed_FILTER;
-
-#pragma RETAIN(stringINV_ACDC_vAC_RMS_FILTER)
-float32_t stringINV_ACDC_vAC_RMS_FILTER;
-
-#pragma RETAIN(stringINV_ACDC_iAC_sensed)
-float32_t stringINV_ACDC_iAC_sensed;
-
-#pragma RETAIN(stringINV_DCDC_vAC_loop_err)
-#pragma RETAIN (stringINV_ACDC_vAC_real_Ref_OUT_PI)
-#pragma RETAIN(stringINV_DCDC_VDCext_Ref)
-#pragma RETAIN(stringINV_DCDC_VDCext_Ref_Slewed)
-
-float32_t stringINV_DCDC_vAC_loop_err;
-float32_t stringINV_ACDC_vAC_real_Ref_OUT_PI;
-float32_t stringINV_DCDC_VDCext_Ref;
-float32_t stringINV_DCDC_VDCext_Ref_Slewed;
-
-// Slewed Reference and Outputs
-#pragma RETAIN(stringINV_DCDC_vDC_Ref)
-#pragma RETAIN(stringINV_DCDC_vDC_Ref_Slewed)
-
-float32_t stringINV_DCDC_vDC_Ref;
-float32_t stringINV_DCDC_vDC_Ref_Slewed;
-
-void stringINV_readCurrentAndVoltageSignals(void);
-
-#define stringINV_ADC_BIPOLAR_PU_SCALE_FACTOR (3.0518509e-5f) // Unipolar
-#define stringINV_ACDC_vAC_MAX ((float32_t)395)               // Unit V
-#define stringINV_ACDC_vAC_Offset ((float32_t)0.0)            // Unit V
-
-#define stringINV_AC_FILTERING_CONSTANT_VS_INV     ((float32_t) 0.4665)   // Ts x 2 x pi x fcut Cut off frequency of 2 kHz (e-(50e-6*2*31415*2000))
-
-#define stringINV_AC_FILTERING_CONSTANT_VS_INV_RMS     ((float32_t) 0.0003)   // Ts x 2 x pi x fcut Cut off frequency of 1 Hz (e-(50e-6*2*31415*1))
-                     
-//Slew Rate Control Boost Duty Cycle
-#define ISR_CONTROL_FREQUENCY_AC_INVERSE 1.0 /ISR_CONTROL_FREQUENCY_AC
-
-//Slew Rate Control DC Bus Voltage
-#define stringINV_VOLTS_PER_SECOND_SLEW ((float32_t)10.0)// V/s
-// Power meas library
-
-//PI Controller ACDC Voltage
-#define gv_ACDC_pi_KP ((float32_t)0.1)
-#define gv_ACDC_pi_KI ((float32_t)0.00001)
-#define gv_ACDC_pi_MAX ((float32_t)3)
-#define gv_ACDC_pi_MIN ((float32_t)-3)
-
-// DCL_PI gi_ACDC_pi = PI_DEFAULTS;
-DCL_PI gv_ACDC_pi = PI_DEFAULTS;
-
-POWER_MEAS_SINE_ANALYZER stringINV_mains_L1;
 
 /*****************************************************************/
 
@@ -218,7 +147,7 @@ void main(void) {
   //
   // Initialize device clock and peripherals
   //
-  Device_init();
+Device_init();
   Check_clock = SysCtl_getClock(DEVICE_OSCSRC_FREQ);
   //
   // Disable pin locks and enable internal pull-ups.
@@ -233,7 +162,7 @@ void main(void) {
   //
   // Initialize the PIE vector table with pointers to the shell Interrupt
   // Service Routines (ISR).
-  //
+  
   Interrupt_initVectorTable();
 
   //
@@ -250,7 +179,7 @@ void main(void) {
   // Enable Global Interrupt (INTM) and real time interrupt (DBGM)
   //
   // config Global
-  stringINV_globalVariablesInit();
+  INV_globalVariablesInit();
 
   /*****************************************************************************
    *  DEAD_BAND = 800ns = 1/(200Mhz/1/1) * 80(valua set) * 2(DBRED:80, DBFED:80)
@@ -261,129 +190,72 @@ void main(void) {
   ERTM;
 
   while (1) {
+
     GPIO_togglePin(41);
     DEVICE_DELAY_US(500000);
+
+    
   }
 }
 
 __interrupt void INT_myADC0_1_ISR(void) {
 
-  GPIO_togglePin(58);
-  // if (stringINV_ACDC_Index_Modulation >= (stringINV_ACDC_Amplitude - 0.005f))
-  // {
-  //   myADC0Results = ADC_readResult(ADCBRESULT_BASE, ADC_SOC_NUMBER0);
+    GPIO_togglePin(58);
 
-  //   ADC_Current = ADC_readResult(ADCCRESULT_BASE, ADC_SOC_NUMBER1);
-  // }
-  // PID_sine();
-  // sine_wave();
+    // PID_sine();
+    // sine_wave();
 
-  stringINV_readCurrentAndVoltageSignals();
+    INV_readCurrentAndVoltageSignals(); 
 
-  stringInverter_runISR1_lab_DCAC_OL();
+#if defined (SINV_CTL_VOL)
 
-  ADC_clearInterruptStatus(myADC0_BASE, ADC_INT_NUMBER1);
+    #if SINV_CTL_VOL == 1
 
-  if (true == ADC_getInterruptOverflowStatus(myADC0_BASE, ADC_INT_NUMBER1)) {
+        INV_vACVoltageControl_PI();
 
-    ADC_clearInterruptOverflowStatus(myADC0_BASE, ADC_INT_NUMBER1);
+    #elif SINV_CTL_VOL == 2
+
+        INV_vACVoltageControl_Basic();
+
+    #else
+    #error undefined SINV_CTL_VOL
+    #endif
+#else
+    #error SINV_CTL_VOL is not define
+#endif
+
+#if defined (MODE_ACDC_DCAC)
+
+    #if MODE_ACDC_DCAC == 1
+
+        INV_runISR1_lab_ACDC_CL();
+
+    #elif MODE_ACDC_DCAC == 2
+
+        INV_runISR1_lab_DCAC_CL();
+          
+    #else 
+    #error undefined MODE_ACDC_DCAC
+    #endif
+#else
+    #error MODE_ACDC_DCAC is not define
+#endif
+
+    // POWER_MEAS_SINE_ANALYZER_run(&INV_mains_L1);
+
+/*********************************Clear Interrupt ADC****************************************/
+
     ADC_clearInterruptStatus(myADC0_BASE, ADC_INT_NUMBER1);
-  }
 
-  Interrupt_clearACKGroup(INT_myADC0_1_INTERRUPT_ACK_GROUP);
-}
+    if (true == ADC_getInterruptOverflowStatus(myADC0_BASE, ADC_INT_NUMBER1)) {
 
-void stringInverter_runISR1_lab_DCAC_OL(void) {
-  // SPLL_1PH_SOGI_run(&stringINV_spll_1ph,
-  //                   stringINV_ACDC_vAC_sensed_pu);
-
-  stringINV_DCDC_vDC_Ref = stringINV_DCDC_VDCext_Ref;
-  stringINV_RAMP_VAC();
-  stringINV_DCDC_VDCext_Ref_Slewed =
-      stringINV_DCDC_vDC_Ref_Slewed; // ramp VDC to reference
-
-  if (stringINV_clearPWMTripDCAC == 1U) // Start the machine!
-  {
-    if (stringINV_ACDC_Index_Modulation < 0.006 &&
-        stringINV_ACDC_Index_Modulation >= -0.006) /////
-    {
-      stringINV_clearPWMTripDCAC = 0;
-      stringINV_updateDutyDCAC = 1;
-      // EPWM_clearTripZoneFlag(DCAC1_BASE, EPWM_TZ_INTERRUPT
-      // |EPWM_TZ_FLAG_OST); EPWM_clearTripZoneFlag(DCAC2_BASE,
-      // EPWM_TZ_INTERRUPT |EPWM_TZ_FLAG_OST);
+        ADC_clearInterruptOverflowStatus(myADC0_BASE, ADC_INT_NUMBER1);
+        ADC_clearInterruptStatus(myADC0_BASE, ADC_INT_NUMBER1);
     }
-  }
 
-  if (stringINV_updateDutyDCAC == 1U) {
-
-    string_vACVoltageControl();
-    stringINV_DCAC_Modulation();
-  }
+    Interrupt_clearACKGroup(INT_myADC0_1_INTERRUPT_ACK_GROUP);
 }
 
-void stringINV_DCAC_Modulation(void) {
-  // HERIC
-
-  if (stringINV_ACDC_Index_Modulation >= zero_sine) //
-  {
-    EPWM_setCounterCompareValue(myEPWM2_BASE, EPWM_COUNTER_COMPARE_A,
-                                stringINV_ACDC_Index_Modulation * DCAC_PWM_PRD);
-
-    EPWM_setCounterCompareValue(myEPWM1_BASE, EPWM_COUNTER_COMPARE_A, 0);
-  }
-
-  // else if (stringINV_ACDC_Index_Modulation < zero_sine &&
-  //          stringINV_ACDC_Index_Modulation >= 0)
-  // {
-  //   EPWM_setCounterCompareValue(myEPWM1_BASE, EPWM_COUNTER_COMPARE_A, 72);
-  //   EPWM_setCounterCompareValue(myEPWM2_BASE, EPWM_COUNTER_COMPARE_A, 0);
-  // } else if (stringINV_ACDC_Index_Modulation >= -zero_sine &&
-  //            stringINV_ACDC_Index_Modulation < 0) {
-
-  //   EPWM_setCounterCompareValue(myEPWM1_BASE, EPWM_COUNTER_COMPARE_A, 0);
-  //   EPWM_setCounterCompareValue(myEPWM2_BASE, EPWM_COUNTER_COMPARE_A, 72);
-  // }
-  // if (stringINV_stop == 1) {
-  //   stringINV_Converter_Stop();
-  // }
-
-  else {
-    EPWM_setCounterCompareValue(myEPWM2_BASE, EPWM_COUNTER_COMPARE_A, 0);
-    EPWM_setCounterCompareValue(myEPWM1_BASE, EPWM_COUNTER_COMPARE_A,
-                                -stringINV_ACDC_Index_Modulation *
-                                    DCAC_PWM_PRD);
-  }
-}
-
-void stringINV_globalVariablesInit(void) {
-
-  // PI control VDC
-  stringINV_DCDC_VDCext_Ref = 220.0f;
-  stringINV_DCDC_vAC_loop_err = 0;
-  stringINV_DCDC_VDCext_Ref_Slewed = 0;
-
-//PI controllers parameters used by the DC/AC
-    // gi_ACDC_pi.Kp = gi_ACDC_pi_KP;
-    // gi_ACDC_pi.Ki = gi_ACDC_pi_KI;
-    // gi_ACDC_pi.Umax = gi_ACDC_pi_MAX;
-    // gi_ACDC_pi.Umin = gi_ACDC_pi_MIN;
-
-    gv_ACDC_pi.Kp =  gv_ACDC_pi_KP;
-    gv_ACDC_pi.Ki = gv_ACDC_pi_KI;
-    gv_ACDC_pi.Umax = gv_ACDC_pi_MAX;
-    gv_ACDC_pi.Umin = gv_ACDC_pi_MIN;
-
-  // String Inverter DC/AC Portion Open Loop Variables
-  stringINV_ACDC_Index_Modulation = 0.0f;
-  stringINV_ACDC_Amplitude = 0.86636f;
-
-  // It generates a triangular signal for cosphi and sinphi String Inverter
-
-  RAMPGEN_config(&stringINV_ACDC_rgen, ISR_CONTROL_FREQUENCY_AC, AC_FREQ);
-
-  RAMPGEN_reset(&stringINV_ACDC_rgen);
-}
 
 void sine_wave(void) {
 
@@ -413,7 +285,7 @@ void sine_wave(void) {
 
 void PID_sine(void) {
 
-  mesure_adc = 1000 + myADC0Results;
+  mesure_adc = 1000 + INV_DCAC_vAC_Heric_Sensor;
   if (mesure_adc < 2145) {
     val_amp_sine = val_amp_sine + 0.000005f;
 
@@ -430,73 +302,6 @@ void PID_sine(void) {
   } else {
     val_amp_sine = val_amp_sine;
   }
-}
-
-void stringINV_readCurrentAndVoltageSignals(void) {
-
-  stringINV_ACDC_vAC_sensed_pu =
-      ADC_readResult(ADCBRESULT_BASE, ADC_SOC_NUMBER0) *
-          stringINV_ADC_BIPOLAR_PU_SCALE_FACTOR -
-      1.0f; // Bipolar Measurement
-  stringINV_ACDC_vAC_sensed =
-      stringINV_ACDC_vAC_sensed_pu * stringINV_ACDC_vAC_MAX +
-      stringINV_ACDC_vAC_Offset;
-
-  stringINV_ACDC_vAC_sensed_FILTER =
-      stringINV_AC_FILTERING_CONSTANT_VS_INV *
-          (-stringINV_ACDC_vAC_sensed_FILTER + stringINV_ACDC_vAC_sensed) +
-      stringINV_ACDC_vAC_sensed_FILTER;
-
-  stringINV_ACDC_vAC_RMS_FILTER =
-      stringINV_AC_FILTERING_CONSTANT_VS_INV_RMS *
-          (-stringINV_ACDC_vAC_RMS_FILTER + stringINV_mains_L1.vRms) +
-      stringINV_ACDC_vAC_RMS_FILTER;
-  // stringINV_ACDC_vDC_sensed_NOTCH =
-  //     DCL_runDF22_C4(&VDC_NOTCH_FILTER_2_Fe,
-  //     stringINV_ACDC_vDC_sensed_FILTER);
-
-  // Power measurement library
-  stringINV_mains_L1.v = stringINV_ACDC_vAC_sensed;
-  stringINV_mains_L1.i = stringINV_ACDC_iAC_sensed;
-}
-
-void stringINV_RAMP_VAC(void)
-{
-    if((stringINV_DCDC_vDC_Ref - stringINV_DCDC_vDC_Ref_Slewed) > (2 * stringINV_VOLTS_PER_SECOND_SLEW) *
-            (ISR_CONTROL_FREQUENCY_AC_INVERSE))
-    {
-        stringINV_DCDC_vDC_Ref_Slewed =  stringINV_DCDC_vDC_Ref_Slewed + (stringINV_VOLTS_PER_SECOND_SLEW) *
-                (ISR_CONTROL_FREQUENCY_AC_INVERSE);
-    }
-    else if((stringINV_DCDC_vDC_Ref - stringINV_DCDC_vDC_Ref_Slewed) <
-            - (2 * stringINV_VOLTS_PER_SECOND_SLEW) *
-            (ISR_CONTROL_FREQUENCY_AC_INVERSE))
-    {
-        stringINV_DCDC_vDC_Ref_Slewed =  stringINV_DCDC_vDC_Ref_Slewed - (stringINV_VOLTS_PER_SECOND_SLEW) *
-                (ISR_CONTROL_FREQUENCY_AC_INVERSE);
-    }
-    else
-    {
-        stringINV_DCDC_vDC_Ref_Slewed =  stringINV_DCDC_vDC_Ref;
-    }
-
-
-}
-
-
-void string_vACVoltageControl() {
-  stringINV_DCDC_vAC_loop_err =
-      stringINV_DCDC_VDCext_Ref_Slewed - stringINV_ACDC_vAC_sensed_FILTER;
-  stringINV_ACDC_vAC_real_Ref_OUT_PI =
-      DCL_runPI_C2(&gv_ACDC_pi, stringINV_DCDC_vAC_loop_err, 0);
-  // stringINV_ACDC_iAC_Ref_slewed =
-  //     stringINV_ACDC_vAC_real_Ref_OUT_PI * (stringINV_spll_1ph.sine) +
-  //     stringINV_ACDC_iAC_imag_Ref * (stringINV_spll_1ph.cosine);
-
-  RAMPGEN_run(&stringINV_ACDC_rgen);
-
-  stringINV_ACDC_Index_Modulation =
-      (stringINV_ACDC_vAC_real_Ref_OUT_PI/3) * (__sinpuf32(stringINV_ACDC_rgen.out));
 }
 
 // set

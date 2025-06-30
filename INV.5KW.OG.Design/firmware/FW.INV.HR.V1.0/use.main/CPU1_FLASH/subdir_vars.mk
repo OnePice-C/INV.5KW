@@ -17,6 +17,7 @@ C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/ccs/Debug/driverlib.lib
 C_SRCS += \
 ./syscfg/board.c \
 ./syscfg/c2000ware_libraries.c \
+../controler_CL.c \
 ../inv_hr_main.c 
 
 GEN_FILES += \
@@ -31,6 +32,7 @@ GEN_MISC_DIRS += \
 C_DEPS += \
 ./syscfg/board.d \
 ./syscfg/c2000ware_libraries.d \
+./controler_CL.d \
 ./inv_hr_main.d 
 
 GEN_OPTS += \
@@ -40,6 +42,7 @@ GEN_OPTS += \
 OBJS += \
 ./syscfg/board.obj \
 ./syscfg/c2000ware_libraries.obj \
+./controler_CL.obj \
 ./inv_hr_main.obj 
 
 GEN_MISC_FILES += \
@@ -59,6 +62,7 @@ GEN_MISC_DIRS__QUOTED += \
 OBJS__QUOTED += \
 "syscfg\board.obj" \
 "syscfg\c2000ware_libraries.obj" \
+"controler_CL.obj" \
 "inv_hr_main.obj" 
 
 GEN_MISC_FILES__QUOTED += \
@@ -75,6 +79,7 @@ GEN_MISC_FILES__QUOTED += \
 C_DEPS__QUOTED += \
 "syscfg\board.d" \
 "syscfg\c2000ware_libraries.d" \
+"controler_CL.d" \
 "inv_hr_main.d" 
 
 GEN_FILES__QUOTED += \
@@ -89,6 +94,7 @@ SYSCFG_SRCS__QUOTED += \
 C_SRCS__QUOTED += \
 "./syscfg/board.c" \
 "./syscfg/c2000ware_libraries.c" \
+"../controler_CL.c" \
 "../inv_hr_main.c" 
 
 

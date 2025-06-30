@@ -23,7 +23,7 @@
 ///User-defined settings
 
 //Select the test lab to be used
-#define SINV_LAB 6
+#define SINV_LAB 2
 
 //Select the modulation scheme here : 1 for HERIC, 2 for Bipolar, 3 for Unipolar
 #define stringINV_DCAC_Modulation_Scheme 1

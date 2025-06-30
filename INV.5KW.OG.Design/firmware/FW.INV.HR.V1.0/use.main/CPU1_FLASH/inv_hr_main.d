@@ -119,6 +119,19 @@ inv_hr_main.obj: C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/version.
 inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device/device.h
 inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stddef.h
 inv_hr_main.obj: syscfg/c2000ware_libraries.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/DCL/DCLF32.h
+inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/math.h
+inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_defs.h
+inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/DCL/DCL.h
+inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/complex.h
+inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdlib.h
+inv_hr_main.obj: C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdlibf.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/rampgen/Rampgen.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/dlog/dlog_4ch.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/power_measurement/power_meas_sine_analyzer.h
+inv_hr_main.obj: ../controler_CL.h
+inv_hr_main.obj: D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/spll/spll_1ph_sogi.h
 
 ../inv_hr_main.c:
 
@@ -357,4 +370,30 @@ D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device/dev
 C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stddef.h:
 
 syscfg/c2000ware_libraries.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/DCL/DCLF32.h:
+
+C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/math.h:
+
+C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_defs.h:
+
+C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/DCL/DCL.h:
+
+C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/complex.h:
+
+C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdlib.h:
+
+C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdlibf.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/rampgen/Rampgen.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/utilities/dlog/dlog_4ch.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/power_measurement/power_meas_sine_analyzer.h:
+
+../controler_CL.h:
+
+D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/spll/spll_1ph_sogi.h:
 

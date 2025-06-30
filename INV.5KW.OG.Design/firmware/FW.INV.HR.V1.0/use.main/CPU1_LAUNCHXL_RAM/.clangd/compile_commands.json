@@ -1,0 +1,27 @@
+[
+   {
+      "directory" : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM",
+      "command"   : "clang++ -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main\" -I\"C:/ti/C2000Ware_5_04_00_00\" -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DRAM -DDEBUG -DCPU1 -D_LAUNCHXL_F28P65X -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM/syscfg\" -xc",
+      "file"      : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device/device.c"
+   },
+   {
+      "directory" : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM",
+      "command"   : "clang++ -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main\" -I\"C:/ti/C2000Ware_5_04_00_00\" -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DRAM -DDEBUG -DCPU1 -D_LAUNCHXL_F28P65X -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM/syscfg\"",
+      "file"      : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device/f28p65x_codestartbranch.asm"
+   },
+   {
+      "directory" : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM",
+      "command"   : "clang++ -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main\" -I\"C:/ti/C2000Ware_5_04_00_00\" -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DRAM -DDEBUG -DCPU1 -D_LAUNCHXL_F28P65X -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM/syscfg\" -xc",
+      "file"      : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/inv_hr_main.c"
+   },
+   {
+      "directory" : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM",
+      "command"   : "clang++ -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main\" -I\"C:/ti/C2000Ware_5_04_00_00\" -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DRAM -DDEBUG -DCPU1 -D_LAUNCHXL_F28P65X -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM/syscfg\"",
+      "file"      : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/DCL/DCL_DF22_C1.asm"
+   },
+   {
+      "directory" : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM",
+      "command"   : "clang++ -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main\" -I\"C:/ti/C2000Ware_5_04_00_00\" -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/device\" -I\"C:/ti/C2000Ware_5_04_00_00/driverlib/f28p65x/driverlib/\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -DRAM -DDEBUG -DCPU1 -D_LAUNCHXL_F28P65X -I\"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_LAUNCHXL_RAM/syscfg\" -xc",
+      "file"      : "D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/sfra/sfra_gui_scicomms_driverlib.c"
+   }
+]

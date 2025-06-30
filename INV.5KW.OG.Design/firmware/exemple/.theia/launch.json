@@ -1,1 +1,14 @@
-{"version":"0.2.0","configurations":[]}
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sinv_F28P55x",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "sinv_F28P55x",
+                "resourceId": "/sinv_F28P55x"
+            }
+        }
+    ]
+}

@@ -12,6 +12,7 @@ GEN_CMDS__FLAG :=
 ORDERED_OBJS += \
 "./syscfg/board.obj" \
 "./syscfg/c2000ware_libraries.obj" \
+"./controler_CL.obj" \
 "./inv_hr_main.obj" \
 "./device/device.obj" \
 "./device/f28p65x_codestartbranch.obj" \
@@ -24,6 +25,8 @@ ORDERED_OBJS += \
 $(GEN_CMDS__FLAG) \
 -lc2000ware_libraries.cmd.genlibs \
 -llibc.a \
+-lrts2800_fpu32_fast_supplement_eabi.lib \
+-lsfra_f32_tmu_eabi.lib \
 
 -include ../makefile.init
 
@@ -152,7 +155,7 @@ all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 use.main.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu64 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=_FLASH --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"use.main.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/C2000Ware_5_04_00_00" -i"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_FLASH/syscfg" -i"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=_FLASH --diag_wrap=off --display_error_number --xml_link_info="use.main_linkInfo.xml" --entry_point=code_start --rom_model -o "use.main.out" $(ORDERED_OBJS)
+	"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu64 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=_FLASH --define=DEBUG --define=CPU1 --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"use.main.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/C2000Ware_5_04_00_00" -i"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/CPU1_FLASH/syscfg" -i"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" -i"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/FPUfastRTS" -i"D:/DTKH.INV.13.OFG/INV.5KW.OG.Design/firmware/FW.INV.HR.V1.0/use.main/libraries/sfra" --reread_libs --define=_FLASH --diag_wrap=off --display_error_number --xml_link_info="use.main_linkInfo.xml" --entry_point=code_start --rom_model -o "use.main.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 	@$(MAKE) --no-print-directory post-build
@@ -160,8 +163,8 @@ use.main.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "syscfg\board.obj" "syscfg\c2000ware_libraries.obj" "inv_hr_main.obj" "device\device.obj" "device\f28p65x_codestartbranch.obj" "libraries\DCL\DCL_DF22_C1.obj" "libraries\sfra\sfra_gui_scicomms_driverlib.obj" 
-	-$(RM) "syscfg\board.d" "syscfg\c2000ware_libraries.d" "inv_hr_main.d" "device\device.d" "libraries\sfra\sfra_gui_scicomms_driverlib.d" 
+	-$(RM) "syscfg\board.obj" "syscfg\c2000ware_libraries.obj" "controler_CL.obj" "inv_hr_main.obj" "device\device.obj" "device\f28p65x_codestartbranch.obj" "libraries\DCL\DCL_DF22_C1.obj" "libraries\sfra\sfra_gui_scicomms_driverlib.obj" 
+	-$(RM) "syscfg\board.d" "syscfg\c2000ware_libraries.d" "controler_CL.d" "inv_hr_main.d" "device\device.d" "libraries\sfra\sfra_gui_scicomms_driverlib.d" 
 	-$(RM) "device\f28p65x_codestartbranch.d" "libraries\DCL\DCL_DF22_C1.d" 
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
 	-@echo 'Finished clean'

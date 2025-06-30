@@ -51,7 +51,9 @@ void Board_init()
 	SYNC_init();
 	ASYSCTL_init();
 	ADC_init();
+	CMPSS_init();
 	EPWM_init();
+	EPWMXBAR_init();
 	GPIO_init();
 	INTERRUPT_init();
 
@@ -170,10 +172,10 @@ void myADC0_init(){
 	// 	  	SOC number		: 0
 	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
 	//	  	Channel			: ADC_CH_ADCIN2
-	//	 	Sample Window	: 100 SYSCLK cycles
+	//	 	Sample Window	: 400 SYSCLK cycles
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	//
-	ADC_setupSOC(myADC0_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 100U);
+	ADC_setupSOC(myADC0_BASE, ADC_SOC_NUMBER0, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN2, 400U);
 	ADC_setInterruptSOCTrigger(myADC0_BASE, ADC_SOC_NUMBER0, ADC_INT_SOC_TRIGGER_NONE);
 	//
 	// ADC Interrupt 1 Configuration
@@ -243,10 +245,10 @@ void ADC_Current_init(){
 	// 	  	SOC number		: 1
 	//	  	Trigger			: ADC_TRIGGER_EPWM1_SOCA
 	//	  	Channel			: ADC_CH_ADCIN3
-	//	 	Sample Window	: 64 SYSCLK cycles
+	//	 	Sample Window	: 200 SYSCLK cycles
 	//		Interrupt Trigger: ADC_INT_SOC_TRIGGER_NONE
 	//
-	ADC_setupSOC(ADC_Current_BASE, ADC_SOC_NUMBER1, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN3, 64U);
+	ADC_setupSOC(ADC_Current_BASE, ADC_SOC_NUMBER1, ADC_TRIGGER_EPWM1_SOCA, ADC_CH_ADCIN3, 200U);
 	ADC_setInterruptSOCTrigger(ADC_Current_BASE, ADC_SOC_NUMBER1, ADC_INT_SOC_TRIGGER_NONE);
 }
 
@@ -260,9 +262,10 @@ void ASYSCTL_init(){
 	//
 	// asysctl initialization
 	//
-	// Disables the temperature sensor output to the ADC.
+	// Enables the temperature sensor output to the ADC.
 	//
-	ASysCtl_disableTemperatureSensor();
+	ASysCtl_enableTemperatureSensor();
+	DEVICE_DELAY_US(500);
 	//
 	// Set the analog voltage reference selection to internal.
 	//
@@ -271,6 +274,123 @@ void ASYSCTL_init(){
 	// Set the internal analog voltage reference selection to 1.65V.
 	//
 	ASysCtl_setAnalogReference1P65( ASYSCTL_VREFHIA | ASYSCTL_VREFHIB | ASYSCTL_VREFHIC );
+}
+
+//*****************************************************************************
+//
+// CMPSS Configurations
+//
+//*****************************************************************************
+void CMPSS_init(){
+	myCMPSS_iAC_vAC_init();
+}
+
+void myCMPSS_iAC_vAC_init(){
+    //
+    // Select the value for CMP3HPMXSEL.
+    //
+    ASysCtl_selectCMPHPMux(ASYSCTL_CMPHPMUX_SELECT_3,0U);
+    //
+    // Select the value for CMP3LPMXSEL.
+    //
+    ASysCtl_selectCMPLPMux(ASYSCTL_CMPLPMUX_SELECT_3,3U);
+    //
+    // Sets the configuration for the high comparator.
+    //
+    CMPSS_configHighComparator(myCMPSS_iAC_vAC_BASE,(CMPSS_INSRC_DAC));
+    //
+    // Sets the configuration for the low comparator.
+    //
+    CMPSS_configLowComparator(myCMPSS_iAC_vAC_BASE,(CMPSS_INSRC_DAC | CMPSS_INV_INVERTED));
+    //
+    // Sets the configuration for the internal comparator DACs.
+    //
+    CMPSS_configDACHigh(myCMPSS_iAC_vAC_BASE,(CMPSS_DACVAL_SYSCLK | CMPSS_DACREF_VDAC | CMPSS_DACSRC_SHDW));
+    CMPSS_configDACLow(myCMPSS_iAC_vAC_BASE, CMPSS_DACSRC_SHDW);
+    //
+    // Sets the value of the internal DAC of the high comparator.
+    //
+    CMPSS_setDACValueHigh(myCMPSS_iAC_vAC_BASE,3000U);
+    //
+    // Sets the value of the internal DAC of the low comparator.
+    //
+    CMPSS_setDACValueLow(myCMPSS_iAC_vAC_BASE,0U);
+    //
+    // Sets the value of the internal DAC of the high comparator for Diode Emulation Support.
+    //
+    CMPSS_configHighDACShadowValueDE(myCMPSS_iAC_vAC_BASE, 0U);
+    //
+    // Sets the value of the internal DAC of the low comparator for Diode Emulation Support.
+    //
+    CMPSS_configLowDACShadowValueDE(myCMPSS_iAC_vAC_BASE, 0U);
+    //
+    // Set the DEACTIVE signal source for CMPSS
+    //
+    CMPSS_selectDEACTIVESource(myCMPSS_iAC_vAC_BASE, CMPSS_DEACTIVE_EPWM1);
+    //
+    //  Configures the digital filter of the high comparator.
+    //
+    CMPSS_configFilterHigh(myCMPSS_iAC_vAC_BASE, 0U, 1U, 1U);
+    //
+    // Configures the digital filter of the low comparator.
+    //
+    CMPSS_configFilterLow(myCMPSS_iAC_vAC_BASE, 0U, 1U, 1U);
+    //
+    // Sets the output signal configuration for the high comparator.
+    //
+    CMPSS_configOutputsHigh(myCMPSS_iAC_vAC_BASE,(CMPSS_TRIPOUT_ASYNC_COMP | CMPSS_TRIP_ASYNC_COMP));
+    //
+    // Sets the output signal configuration for the low comparator.
+    //
+    CMPSS_configOutputsLow(myCMPSS_iAC_vAC_BASE,(CMPSS_TRIPOUT_ASYNC_COMP | CMPSS_TRIP_ASYNC_COMP));
+    //
+    // Sets the comparator hysteresis settings.
+    //
+    CMPSS_setHysteresis(myCMPSS_iAC_vAC_BASE,0U);
+    //
+    // Configures the comparator subsystem's high ramp generator.
+    //
+    CMPSS_configRampHigh(myCMPSS_iAC_vAC_BASE, CMPSS_RAMP_DIR_DOWN, 0U,0U,0U,1U,true);
+    //
+    // Configures the comparator subsystem's low ramp generator.
+    //
+    CMPSS_configRampLow(myCMPSS_iAC_vAC_BASE, CMPSS_RAMP_DIR_DOWN, 0U,0U,0U,1U,true);
+    //
+    // Configures the high comparator's ramp generator clock divider
+    //
+    CMPSS_setRampClockDividerHigh(myCMPSS_iAC_vAC_BASE, CMPSS_RAMP_CLOCK_DIV1);
+    //
+    // Configures the low comparator's ramp generator clock divider
+    //
+    CMPSS_setRampClockDividerLow(myCMPSS_iAC_vAC_BASE, CMPSS_RAMP_CLOCK_DIV1);
+    //
+    // Disables reset of HIGH comparator digital filter output latch on PWMSYNC
+    //
+    CMPSS_disableLatchResetOnPWMSYNCHigh(myCMPSS_iAC_vAC_BASE);
+    //
+    // Disables reset of LOW comparator digital filter output latch on PWMSYNC
+    //
+    CMPSS_disableLatchResetOnPWMSYNCLow(myCMPSS_iAC_vAC_BASE);
+    //
+    // Sets the ePWM module blanking signal that holds trip in reset.
+    //
+    CMPSS_configBlanking(myCMPSS_iAC_vAC_BASE,1U);
+    //
+    // Disables an ePWM blanking signal from holding trip in reset.
+    //
+    CMPSS_disableBlanking(myCMPSS_iAC_vAC_BASE);
+    //
+    // Configures whether or not the digital filter latches are reset by PWMSYNC
+    //
+    CMPSS_configLatchOnPWMSYNC(myCMPSS_iAC_vAC_BASE,false,false);
+    //
+    // Enables the CMPSS module.
+    //
+    CMPSS_enableModule(myCMPSS_iAC_vAC_BASE);
+    //
+    // Delay for CMPSS DAC to power up.
+    //
+    DEVICE_DELAY_US(500);
 }
 
 //*****************************************************************************
@@ -313,6 +433,7 @@ void EPWM_init(){
     EPWM_setFallingEdgeDelayCount(myEPWM1_BASE, 80);	
     EPWM_setDeadBandOutputSwapMode(myEPWM1_BASE, EPWM_DB_OUTPUT_A, true);	
     EPWM_setDeadBandOutputSwapMode(myEPWM1_BASE, EPWM_DB_OUTPUT_B, true);	
+    EPWM_setTripZoneAction(myEPWM1_BASE, EPWM_TZ_ACTION_EVENT_DCBEVT1, EPWM_TZ_ACTION_LOW);	
     EPWM_enableADCTrigger(myEPWM1_BASE, EPWM_SOC_A);	
     EPWM_setADCTriggerSource(myEPWM1_BASE, EPWM_SOC_A, EPWM_SOC_TBCTR_U_CMPA);	
     EPWM_setADCTriggerEventPrescale(myEPWM1_BASE, EPWM_SOC_A, 1);	
@@ -351,6 +472,22 @@ void EPWM_init(){
     EPWM_setFallingEdgeDelayCount(myEPWM2_BASE, 80);	
     EPWM_setDeadBandOutputSwapMode(myEPWM2_BASE, EPWM_DB_OUTPUT_A, true);	
     EPWM_setDeadBandOutputSwapMode(myEPWM2_BASE, EPWM_DB_OUTPUT_B, true);	
+    EPWM_setTripZoneAction(myEPWM2_BASE, EPWM_TZ_ACTION_EVENT_DCBEVT1, EPWM_TZ_ACTION_LOW);	
+}
+
+//*****************************************************************************
+//
+// EPWMXBAR Configurations
+//
+//*****************************************************************************
+void EPWMXBAR_init(){
+	myEPWMXBAR0_init();
+}
+
+void myEPWMXBAR0_init(){
+		
+	XBAR_setEPWMMuxConfig(myEPWMXBAR0, XBAR_EPWM_MUX04_CMPSS3_CTRIPH);
+	XBAR_enableEPWMMux(myEPWMXBAR0, XBAR_MUX04);
 }
 
 //*****************************************************************************
